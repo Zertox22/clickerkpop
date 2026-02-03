@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - K-Pop Stan Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="login-body">
+    <div class="login-container">
+        <!-- Retour à l'accueil -->
+        <a href="index.html" class="back-btn">
+            <span>← Retour</span>
+        </a>
+
+        <!-- Bouton Feedback -->
+        <a href="feedback.html" class="back-btn" style="left: auto; right: 2rem;">
+            <span>💌 Feedback</span>
+        </a>
+
+        <div class="login-card">
+            <!-- Logo/Titre -->
+            <div class="login-header">
+                <h1 class="login-title">K-Pop Stan</h1>
+                <p class="login-subtitle">Rejoins la communauté !</p>
+            </div>
+
+            <!-- Formulaire de connexion (par défaut) -->
+            <div id="login-form" class="auth-form active">
+                <h2>Connexion</h2>
+                <form onsubmit="handleLogin(event)">
+                    <div class="form-group">
+                        <label for="login-email">Email</label>
+                        <input type="email" id="login-email" placeholder="ton-email@exemple.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Mot de passe</label>
+                        <input type="password" id="login-password" placeholder="••••••••" required>
+                    </div>
+                    <button type="submit" class="auth-btn">Se connecter</button>
+                </form>
+                <p class="switch-form">
+                    Pas encore de compte ?
+                    <a href="#" onclick="switchToSignup(); return false;">Créer un compte</a>
+                </p>
+            </div>
+
+            <!-- Formulaire d'inscription (caché par défaut) -->
+            <div id="signup-form" class="auth-form">
+                <h2>Créer un compte</h2>
+                <form onsubmit="handleSignup(event)">
+                    <div class="form-group">
+                        <label for="signup-username">Nom d'utilisateur</label>
+                        <input type="text" id="signup-username" placeholder="TonPseudo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-email">Email</label>
+                        <input type="email" id="signup-email" placeholder="ton-email@exemple.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Mot de passe</label>
+                        <input type="password" id="signup-password" placeholder="••••••••" required minlength="6">
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-confirm">Confirmer le mot de passe</label>
+                        <input type="password" id="signup-confirm" placeholder="••••••••" required minlength="6">
+                    </div>
+                    <button type="submit" class="auth-btn">Créer mon compte</button>
+                </form>
+                <p class="switch-form">
+                    Déjà un compte ?
+                    <a href="#" onclick="switchToLogin(); return false;">Se connecter</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Particules décoratives -->
+        <div class="bg-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+
+    <script src="login-script.js"></script>
+</body>
+
+</html>

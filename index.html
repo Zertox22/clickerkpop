@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Pop Stan Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Left Panel: The Stage (Clicker) -->
+        <section class="stage-panel">
+            <header>
+                <!-- Bouton de connexion -->
+                <a href="login.html" class="login-btn" title="Se connecter">
+                    <span class="login-icon">👤</span>
+                    <span class="login-text">Connexion</span>
+                </a>
+
+                <!-- Bouton Feedback -->
+                <a href="feedback.html" class="login-btn feedback-btn-index" title="Envoyer un feedback">
+                    <span class="login-icon">💌</span>
+                    <span class="login-text">Feedback</span>
+                </a>
+
+                <h1>K-Pop Stan</h1>
+                <div class="currency-display">
+                    <span id="score">0</span> <span class="currency-name">❤️</span>
+                    <span class="spacer"> | </span>
+                    <span id="coins">0</span> <span class="currency-name">🌟</span>
+                </div>
+                <div class="cps-display">
+                    <span id="cps">0</span> ❤️/sec
+                </div>
+                <!-- Level UI -->
+                <div class="level-container">
+                    <div class="level-info">
+                        <span class="level-badge">Lvl <span id="level-display">0</span></span>
+                        <span class="xp-text"><span id="xp-display">0</span> / <span id="xp-max">100</span> XP</span>
+                    </div>
+                    <div class="xp-bar-bg">
+                        <div id="xp-bar-fill" class="xp-bar-fill" style="width: 0%;"></div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="click-area">
+                <button id="main-button" class="heart-btn">
+                    💖
+                </button>
+            </div>
+
+            <div class="collection-entry">
+                <button id="open-collection-btn" class="collection-btn" onclick="openModal()">
+                    My Collection 🗂️
+                </button>
+                <button id="open-lightstick-btn" class="collection-btn" onclick="openLightstickModal()">
+                    Mes Lightstick 🪄
+                </button>
+            </div>
+        </section>
+
+        <!-- Right Panel: Shop & Gacha -->
+        <section class="shop-panel">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab('upgrades-content')">Upgrades</button>
+                <button class="tab-btn" onclick="switchTab('gacha-content')">Gacha</button>
+            </div>
+
+            <!-- Upgrades Tab -->
+            <div id="upgrades-content" class="tab-content active">
+                <div class="list-container">
+                    <!-- Premium Upgrades (Coins) -->
+                    <div id="premium-upgrades-list" class="upgrade-section">
+                        <h3>🌟 Premium Shop 🌟</h3>
+                        <!-- Injected JS -->
+                    </div>
+
+                    <hr style="border-color: var(--glass-border); margin: 10px 0;">
+
+                    <!-- Standard Upgrades (Hearts) -->
+                    <div id="upgrade-list">
+                        <h3>❤️ Standard Upgrades</h3>
+                        <!-- Injected JS -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gacha Tab -->
+            <div id="gacha-content" class="tab-content">
+                <h2>Card Packs</h2>
+                <div class="gacha-banner">
+                    <!-- Standard (Hearts) -->
+                    <div class="pack-display" id="basic-pack">
+                        <div class="pack-rating-info" onclick="showPackDetails('standard')">ℹ️</div>
+                        <div class="pack-art">🎫</div>
+                        <h3>Standard</h3>
+                        <p><span id="pack-cost">200</span> ❤️</p>
+                        <button id="buy-pack-btn" class="action-btn">Buy</button>
+                    </div>
+                    <!-- Super (Hearts) -->
+                    <div class="pack-display super-pack" id="super-pack">
+                        <div class="pack-rating-info" onclick="showPackDetails('super')">ℹ️</div>
+                        <div class="pack-art">💖</div>
+                        <h3>Super Fan</h3>
+                        <p><span id="super-cost">2000</span> ❤️</p>
+                        <button id="buy-super-btn" class="action-btn" onclick="buyPack('super')">Buy</button>
+                    </div>
+                    <!-- Platinum (Hearts) -->
+                    <div class="pack-display platinum-pack" id="platinum-pack"
+                        style="border: 2px solid white; box-shadow: 0 0 10px white;">
+                        <div class="pack-rating-info" onclick="showPackDetails('platinum')">ℹ️</div>
+                        <div class="pack-art">💿</div>
+                        <h3>Platinum</h3>
+                        <p><span id="platinum-cost">5000</span> ❤️</p>
+                        <button id="buy-platinum-btn" class="action-btn" onclick="buyPack('platinum')">Buy</button>
+                    </div>
+                    <!-- Fan Club (Hearts) - NEW -->
+                    <div class="pack-display pack-fan-club" id="fan-club-pack">
+                        <div class="pack-rating-info" onclick="showPackDetails('fan_club')">ℹ️</div>
+                        <div class="pack-art">�</div>
+                        <h3>Fan Club</h3>
+                        <p><span id="fan-club-cost">10000</span> ❤️</p>
+                        <button class="action-btn" onclick="buyPack('fan_club')">Buy</button>
+                    </div>
+                    <!-- Concert (Hearts) - NEW -->
+                    <div class="pack-display pack-concert" id="concert-pack">
+                        <div class="pack-rating-info" onclick="showPackDetails('concert')">ℹ️</div>
+                        <div class="pack-art">🏟️</div>
+                        <h3>Concert</h3>
+                        <p><span id="concert-cost">50000</span> ❤️</p>
+                        <button class="action-btn" onclick="buyPack('concert')">Buy</button>
+                    </div>
+                </div>
+
+                <div class="gacha-banner">
+                    <!-- VIP (Coins) -->
+                    <div class="pack-display vip-pack" id="vip-pack">
+                        <div class="pack-rating-info" onclick="showPackDetails('vip')">ℹ️</div>
+                        <div class="pack-art">👑</div>
+                        <h3>VIP</h3>
+                        <p><span id="vip-cost">500</span> 🌟</p>
+                        <button id="buy-vip-btn" class="action-btn vip-btn" onclick="buyPack('vip')">Buy</button>
+                    </div>
+                    <!-- Elite (Coins) -->
+                    <div class="pack-display elite-pack" id="elite-pack">
+                        <div class="pack-rating-info" onclick="showPackDetails('elite')">ℹ️</div>
+                        <div class="pack-art">💎</div>
+                        <h3>Elite Star</h3>
+                        <p><span id="elite-cost">2500</span> 🌟</p>
+                        <button id="buy-elite-btn" class="action-btn elite-btn" onclick="buyPack('elite')">Buy</button>
+                    </div>
+                    <!-- Diamond (Coins) -->
+                    <div class="pack-display diamond-pack" id="diamond-pack"
+                        style="border: 2px solid cyan; box-shadow: 0 0 15px cyan;">
+                        <div class="pack-rating-info" onclick="showPackDetails('diamond')">ℹ️</div>
+                        <div class="pack-art">🔮</div>
+                        <h3>Diamond</h3>
+                        <p><span id="diamond-cost">5000</span> 🌟</p>
+                        <button id="buy-diamond-btn" class="action-btn elite-btn"
+                            style="background: cyan; color: black;" onclick="buyPack('diamond')">Buy</button>
+                    </div>
+                    <!-- Backstage (Coins) - NEW -->
+                    <div class="pack-display pack-backstage" id="backstage-pack">
+                        <div class="pack-rating-info" onclick="showPackDetails('backstage')">ℹ️</div>
+                        <div class="pack-art">🕶️</div>
+                        <h3>Backstage</h3>
+                        <p><span id="backstage-cost">15000</span> 🌟</p>
+                        <button class="action-btn" onclick="buyPack('backstage')">Buy</button>
+                    </div>
+                    <!-- World Tour (Coins) - NEW -->
+                    <div class="pack-display pack-world-tour" id="world-tour-pack">
+                        <div class="pack-rating-info" onclick="showPackDetails('world_tour')">ℹ️</div>
+                        <div class="pack-art">🌎</div>
+                        <h3>World Tour</h3>
+                        <p><span id="world-tour-cost">50000</span> 🌟</p>
+                        <button class="action-btn" onclick="buyPack('world_tour')">Buy</button>
+                    </div>
+                </div>
+
+                <!-- Lightstick Packs (COINS/PREMIUM) -->
+                <div class="gacha-banner">
+                    <!-- Standard (Coins) -->
+                    <div class="pack-display lightstick-pack-silver" id="ls-std">
+                        <div class="pack-rating-info" onclick="showPackDetails('ls_std')">ℹ️</div>
+                        <div class="pack-art">💎</div>
+                        <h3>LS Standard</h3>
+                        <p><span id="ls-std-cost">2500</span> 🌟</p>
+                        <button class="action-btn" onclick="buyPack('ls_std')">Buy</button>
+                    </div>
+                    <!-- Premium (Coins) -->
+                    <div class="pack-display lightstick-pack-gold" id="ls-prem">
+                        <div class="pack-rating-info" onclick="showPackDetails('ls_prem')">ℹ️</div>
+                        <div class="pack-art">✨</div>
+                        <h3>LS Premium</h3>
+                        <p><span id="ls-prem-cost">5000</span> 🌟</p>
+                        <button class="action-btn" onclick="buyPack('ls_prem')">Buy</button>
+                    </div>
+                    <!-- Ultimate (Coins) -->
+                    <div class="pack-display lightstick-pack-ultimate" id="ls-ult">
+                        <div class="pack-rating-info" onclick="showPackDetails('ls_ult')">ℹ️</div>
+                        <div class="pack-art">🎇</div>
+                        <h3>LS Ultimate</h3>
+                        <p><span id="ls-ult-cost">10k</span> 🌟</p>
+                        <button class="action-btn" onclick="buyPack('ls_ult')">Buy</button>
+                    </div>
+                </div>
+                <div id="latest-pull" class="pull-result hidden">
+                    <!-- Card reveal animation -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Generic Info Modal -->
+    <div id="info-modal" class="modal hidden" style="z-index: 2000;">
+        <div class="modal-content">
+            <span class="close-modal" id="close-info-btn">&times;</span>
+            <h2 id="info-title">Pack Details</h2>
+            <div id="info-content"></div>
+        </div>
+    </div>
+
+    <!-- Collection Overlay (Hidden by default) -->
+    <div id="collection-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h2>Photocard Binder</h2>
+            <div id="full-inventory" class="card-grid"></div>
+        </div>
+    </div>
+    <!-- Lightstick Collection Modal -->
+    <div id="lightstick-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeLightstickModal()">&times;</span>
+            <h2>Lightstick Collection</h2>
+            <div id="lightstick-grid" class="card-grid"></div>
+        </div>
+    </div>
+
+    <!-- Card Details Overlay (Hidden by default) -->
+    <div id="card-details-modal" class="modal hidden" style="z-index:1100;">
+        <div class="modal-content details-content">
+            <span class="close-modal" onclick="closeDetailsModal()">&times;</span>
+            <div id="details-view-container">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Pack Opening Animation Modal -->
+    <div id="pack-opening-modal" class="pack-modal hidden">
+        <div class="pack-animation-container">
+            <div id="pack-particles"></div>
+            <div id="pack-visual" class="pack-visual">
+                <div class="pack-glow"></div>
+                <div class="pack-icon">🎁</div>
+                <div class="pack-prompt">Click to Open!</div>
+            </div>
+            <div id="card-reveal-container" class="card-reveal-container hidden">
+                <!-- Card will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
