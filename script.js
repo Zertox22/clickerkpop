@@ -206,6 +206,46 @@ const cardPool = [
     { id: 'idol_seonghyeon', name: 'Seonghyeon (Cortis)', rarity: 'Rare', group: 'Cortis', gender: 'M', img: 'assets/idol_seonghyeon.jpg' },
     { id: 'idol_keonho', name: 'Keonho (Cortis)', rarity: 'Secret', group: 'Cortis', gender: 'M', img: 'assets/idol_keonho.jpg' },
 
+    // --- ENHYPEN (M) ---
+    { id: 'idol_heeseung', name: 'Heeseung (ENHYPEN)', rarity: 'Legendary', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_heeseung.jpg' },
+    { id: 'idol_jay', name: 'Jay (ENHYPEN)', rarity: 'Epic', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_jay.jpg' },
+    { id: 'idol_jaeyun', name: 'Jaeyun (ENHYPEN)', rarity: 'Secret', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_jaeyun.jpg' },
+    { id: 'idol_sunghoon', name: 'Sunghoon (ENHYPEN)', rarity: 'Epic', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_sunghoon.jpg' },
+    { id: 'idol_sunoo', name: 'Sunoo (ENHYPEN)', rarity: 'Rare', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_sunoo.jpg' },
+    { id: 'idol_jungwon', name: 'Jungwon (ENHYPEN)', rarity: 'Epic', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_jungwon.jpg' },
+    { id: 'idol_riki', name: 'Ri-ki (ENHYPEN)', rarity: 'Rare', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_riki.jpg' },
+
+    // --- BIGBANG (M) ---
+    { id: 'idol_gdragon', name: 'G-Dragon (Bigbang)', rarity: 'Golden', group: 'Bigbang', gender: 'M', img: 'assets/idol_gdragon.jpg' },
+    { id: 'idol_top', name: 'T.O.P (Bigbang)', rarity: 'Secret', group: 'Bigbang', gender: 'M', img: 'assets/idol_top.jpg' },
+    { id: 'idol_taeyang', name: 'Taeyang (Bigbang)', rarity: 'Rare', group: 'Bigbang', gender: 'M', img: 'assets/idol_taeyang.jpg' },
+    { id: 'idol_daesung', name: 'Daesung (Bigbang)', rarity: 'Epic', group: 'Bigbang', gender: 'M', img: 'assets/idol_daesung.jpg' },
+
+    // --- (G)I-DLE (F) ---
+    { id: 'idol_soyeon', name: 'Soyeon (I-DLE)', rarity: 'Legendary', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_soyeon.jpg' },
+    { id: 'idol_miyeon', name: 'Miyeon (I-DLE)', rarity: 'Epic', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_miyeon.jpg' },
+    { id: 'idol_minnie', name: 'Minnie (I-DLE)', rarity: 'Golden', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_minnie.jpg' },
+    { id: 'idol_yuqi', name: 'Yuqi (I-DLE)', rarity: 'Secret', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_yuqi.jpg' },
+    { id: 'idol_shuhua', name: 'Shuhua (I-DLE)', rarity: 'Epic', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_shuhua.jpg' },
+    { id: 'idol_soojin', name: 'Soojin (I-DLE)', rarity: 'Rare', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_soojin.jpg' },
+
+    // --- HUNTRX (F) ---
+    { id: 'idol_rumi_huntrx', name: 'Rumi (Huntrx)', rarity: 'Secret', group: 'Huntrx', gender: 'F', img: 'assets/idol_rumi_huntrx.jpg' },
+    { id: 'idol_zoey_huntrx', name: 'Zoey (Huntrx)', rarity: 'Legendary', group: 'Huntrx', gender: 'F', img: 'assets/idol_zoey_huntrx.jpg' },
+    { id: 'idol_mira_huntrx', name: 'Mira (Huntrx)', rarity: 'Epic', group: 'Huntrx', gender: 'F', img: 'assets/idol_mira_huntrx.jpg' },
+
+    // --- FROMIS_9 (F) ---
+    { id: 'idol_saerom', name: 'Saerom (fromis_9)', rarity: 'Legendary', group: 'fromis_9', gender: 'F', img: 'assets/idol_saerom.jpg' },
+    { id: 'idol_hayoung', name: 'Hayoung (fromis_9)', rarity: 'Epic', group: 'fromis_9', gender: 'F', img: 'assets/idol_hayoung.jpg' },
+    { id: 'idol_jiwon', name: 'Jiwon (fromis_9)', rarity: 'Secret', group: 'fromis_9', gender: 'F', img: 'assets/idol_jiwon.jpg' },
+    { id: 'idol_jisun', name: 'Jisun (fromis_9)', rarity: 'Rare', group: 'fromis_9', gender: 'F', img: 'assets/idol_jisun.jpg' },
+    { id: 'idol_seoyeon', name: 'Seoyeon (fromis_9)', rarity: 'Epic', group: 'fromis_9', gender: 'F', img: 'assets/idol_seoyeon.jpg' },
+    { id: 'idol_chaeyoung_fromis', name: 'Chaeyoung (fromis_9)', rarity: 'Golden', group: 'fromis_9', gender: 'F', img: 'assets/idol_chaeyoung_fromis.jpg' },
+    { id: 'idol_nagyung', name: 'Nagyung (fromis_9)', rarity: 'Common', group: 'fromis_9', gender: 'F', img: 'assets/idol_nagyung.jpg' },
+    { id: 'idol_jiheon', name: 'Jiheon (fromis_9)', rarity: 'Rare', group: 'fromis_9', gender: 'F', img: 'assets/idol_jiheon.jpg' },
+    { id: 'idol_gyuri', name: 'Gyuri (fromis_9)', rarity: 'Common', group: 'fromis_9', gender: 'F', img: 'assets/idol_gyuri.jpg' },
+
+
 ];
 
 
@@ -224,7 +264,14 @@ const lightsticks = [
     { id: 'ls_katseye', group: 'Katseye', name: 'Katseye LS', rarity: 'Common', img: 'assets/default_lightstick.png' },
     { id: 'ls_itzy', group: 'Itzy', name: 'Light Ring', rarity: 'Epic', img: 'assets/default_lightstick.png' },
     { id: 'ls_illit', group: 'ILLIT', name: 'ILLIT LS', rarity: 'Rare', img: 'assets/default_lightstick.png' },
-    { id: 'ls_cortis', group: 'Cortis', name: 'Cortis LS', rarity: 'Common', img: 'assets/default_lightstick.png' }
+    { id: 'ls_cortis', group: 'Cortis', name: 'Cortis LS', rarity: 'Common', img: 'assets/default_lightstick.png' },
+    { id: 'ls_enhypen', group: 'ENHYPEN', name: 'ENGENE Bong', rarity: 'Epic', img: 'assets/default_lightstick.png' },
+    { id: 'ls_bigbang', group: 'Bigbang', name: 'Bang Bong', rarity: 'Legendary', img: 'assets/default_lightstick.png' },
+    { id: 'ls_gidle', group: '(G)I-DLE', name: 'I-LIGHT', rarity: 'Epic', img: 'assets/default_lightstick.png' },
+    { id: 'ls_huntrx', group: 'Huntrx', name: 'Huntrx LS', rarity: 'Rare', img: 'assets/default_lightstick.png' },
+    { id: 'ls_fromis9', group: 'fromis_9', name: 'Fromis Candlebong', rarity: 'Rare', img: 'assets/default_lightstick.png' }
+
+
 ];
 
 
@@ -612,8 +659,8 @@ window.sellCard = function (index) {
     if (card.rarity === 'Rare') value = 50;
     if (card.rarity === 'Epic') value = 200;
     if (card.rarity === 'Legendary') value = 1000;
-    if (card.rarity === 'Golden') value = 5000; // New Value
-    if (card.rarity === 'Secret') value = 10000; // Buffed Secret Value
+    if (card.rarity === 'Secret') value = 2500;
+    if (card.rarity === 'Golden') value = 5000;
 
     state.inventory.splice(index, 1);
     state.coins += value;
@@ -827,6 +874,8 @@ function showCardDetails(cardId) {
         if (cardDef.rarity === 'Epic') value = 200;
         if (cardDef.rarity === 'Legendary') value = 1000;
         if (cardDef.rarity === 'Secret') value = 2500;
+        if (cardDef.rarity === 'Golden') value = 5000;
+
 
         // We sell the FIRST instance found (ownedIndices[0])
         // Need to wrap sell call to re-render details after selling
@@ -1062,7 +1111,8 @@ function openPack(pulledCard, packType) {
         else if (pulledCard.rarity === 'Epic') xpReward = 50;
         else if (pulledCard.rarity === 'Legendary') xpReward = 100;
         else if (pulledCard.rarity === 'Secret') xpReward = 500;
-        else if (pulledCard.rarity === 'Golden') xpReward = 100;
+        else if (pulledCard.rarity === 'Golden') xpReward = 1000; // Golden is the rarest, should give most XP
+
 
         gainXp(xpReward);
         saveGame();

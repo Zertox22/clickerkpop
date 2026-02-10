@@ -97,10 +97,18 @@ button {
     font-weight: 600;
 }
 
-/* Feedback button positioning on index page */
+/* Feedback button positioning on index page - vertical layout */
 .feedback-btn-index {
-    right: 180px;
-    /* Position it to the left of the login button with more spacing */
+    right: 1rem;
+    top: 4.5rem;
+    /* Position below the Connexion button with 10px gap */
+}
+
+/* Spotify button positioning on index page - vertical layout */
+.spotify-btn-index {
+    right: 1rem;
+    top: 8rem;
+    /* Position below the Feedback button with 10px gap */
 }
 
 header {
