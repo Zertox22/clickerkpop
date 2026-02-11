@@ -245,6 +245,21 @@ const cardPool = [
     { id: 'idol_jiheon', name: 'Jiheon (fromis_9)', rarity: 'Rare', group: 'fromis_9', gender: 'F', img: 'assets/idol_jiheon.jpg' },
     { id: 'idol_gyuri', name: 'Gyuri (fromis_9)', rarity: 'Common', group: 'fromis_9', gender: 'F', img: 'assets/idol_gyuri.jpg' },
 
+    // --- DREAMCATCHER (F) ---
+    { id: 'idol_jiu', name: 'JiU (Dreamcatcher)', rarity: 'Legendary', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_jiu.jpg' },
+    { id: 'idol_sua', name: 'SuA (Dreamcatcher)', rarity: 'Epic', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_sua.jpg' },
+    { id: 'idol_siyeon', name: 'Siyeon (Dreamcatcher)', rarity: 'Secret', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_siyeon.jpg' },
+    { id: 'idol_handong', name: 'Handong (Dreamcatcher)', rarity: 'Rare', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_handong.jpg' },
+    { id: 'idol_yoohyeon', name: 'Yoohyeon (Dreamcatcher)', rarity: 'Epic', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_yoohyeon.jpg' },
+    { id: 'idol_dami', name: 'Dami (Dreamcatcher)', rarity: 'Rare', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_dami.jpg' },
+    { id: 'idol_gahyun', name: 'Gahyun (Dreamcatcher)', rarity: 'Common', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_gahyun.jpg' },
+
+    // --- RED VELVET (F) ---
+    { id: 'idol_irene', name: 'Irene (Red Velvet)', rarity: 'Legendary', group: 'Red Velvet', gender: 'F', img: 'assets/idol_irene.jpg' },
+    { id: 'idol_seulgi', name: 'Seulgi (Red Velvet)', rarity: 'Rare', group: 'Red Velvet', gender: 'F', img: 'assets/idol_seulgi.jpg' },
+    { id: 'idol_wendy', name: 'Wendy (Red Velvet)', rarity: 'Epic', group: 'Red Velvet', gender: 'F', img: 'assets/idol_wendy.jpg' },
+    { id: 'idol_joy', name: 'Joy (Red Velvet)', rarity: 'Secret', group: 'Red Velvet', gender: 'F', img: 'assets/idol_joy.jpg' },
+    { id: 'idol_yeri', name: 'Yeri (Red Velvet)', rarity: 'Common', group: 'Red Velvet', gender: 'F', img: 'assets/idol_yeri.jpg' },
 
 ];
 
@@ -252,24 +267,26 @@ const cardPool = [
 // Config: Lightsticks
 // Rarities: Common, Rare, Epic, Legendary, Secret
 const lightsticks = [
-    { id: 'ls_bts', group: 'BTS', name: 'BTS Army Bomb', rarity: 'Legendary', img: 'assets/default_lightstick.png' },
-    { id: 'ls_blackpink', group: 'Blackpink', name: 'Bi-Ping-Bong', rarity: 'Legendary', img: 'assets/default_lightstick.png' },
-    { id: 'ls_twice', group: 'Twice', name: 'Candy Bong', rarity: 'Epic', img: 'assets/default_lightstick.png' },
-    { id: 'ls_skz', group: 'Stray Kids', name: 'Nachimbong', rarity: 'Epic', img: 'assets/default_lightstick.png' },
-    { id: 'ls_aespa', group: 'Aespa', name: 'Aespa LS', rarity: 'Epic', img: 'assets/default_lightstick.png' },
-    { id: 'ls_ive', group: 'IVE', name: 'I-Ha-Bong', rarity: 'Rare', img: 'assets/default_lightstick.png' },
+    { id: 'ls_bts', group: 'BTS', name: 'BTS Army Bomb', rarity: 'Golden', img: 'assets/default_lightstick.png' },
+    { id: 'ls_blackpink', group: 'Blackpink', name: 'Bi-Ping-Bong', rarity: 'Golden', img: 'assets/default_lightstick.png' },
+    { id: 'ls_twice', group: 'Twice', name: 'Candy Bong', rarity: 'Legendary', img: 'assets/default_lightstick.png' },
+    { id: 'ls_skz', group: 'Stray Kids', name: 'Nachimbong', rarity: 'Secret', img: 'assets/default_lightstick.png' },
+    { id: 'ls_aespa', group: 'Aespa', name: 'Aespa LS', rarity: 'Legendary', img: 'assets/default_lightstick.png' },
+    { id: 'ls_ive', group: 'IVE', name: 'I-Ha-Bong', rarity: 'Epic', img: 'assets/default_lightstick.png' },
     { id: 'ls_newjeans', group: 'NewJeans', name: 'Binky Bong', rarity: 'Rare', img: 'assets/default_lightstick.png' },
-    { id: 'ls_lss', group: 'Le Sserafim', name: 'Fim Bong', rarity: 'Rare', img: 'assets/default_lightstick.png' },
-    { id: 'ls_baemon', group: 'BabyMonster', name: 'Baemon LS', rarity: 'Common', img: 'assets/default_lightstick.png' },
-    { id: 'ls_katseye', group: 'Katseye', name: 'Katseye LS', rarity: 'Common', img: 'assets/default_lightstick.png' },
+    { id: 'ls_lss', group: 'Le Sserafim', name: 'Fim Bong', rarity: 'Legendary', img: 'assets/default_lightstick.png' },
+    { id: 'ls_baemon', group: 'BabyMonster', name: 'Baemon LS', rarity: 'Secret', img: 'assets/default_lightstick.png' },
+    { id: 'ls_katseye', group: 'Katseye', name: 'Katseye LS', rarity: 'Epic', img: 'assets/default_lightstick.png' },
     { id: 'ls_itzy', group: 'Itzy', name: 'Light Ring', rarity: 'Epic', img: 'assets/default_lightstick.png' },
     { id: 'ls_illit', group: 'ILLIT', name: 'ILLIT LS', rarity: 'Rare', img: 'assets/default_lightstick.png' },
     { id: 'ls_cortis', group: 'Cortis', name: 'Cortis LS', rarity: 'Common', img: 'assets/default_lightstick.png' },
-    { id: 'ls_enhypen', group: 'ENHYPEN', name: 'ENGENE Bong', rarity: 'Epic', img: 'assets/default_lightstick.png' },
-    { id: 'ls_bigbang', group: 'Bigbang', name: 'Bang Bong', rarity: 'Legendary', img: 'assets/default_lightstick.png' },
+    { id: 'ls_enhypen', group: 'ENHYPEN', name: 'ENGENE Bong', rarity: 'Common', img: 'assets/default_lightstick.png' },
+    { id: 'ls_bigbang', group: 'Bigbang', name: 'Bang Bong', rarity: 'Rare', img: 'assets/default_lightstick.png' },
     { id: 'ls_gidle', group: '(G)I-DLE', name: 'I-LIGHT', rarity: 'Epic', img: 'assets/default_lightstick.png' },
-    { id: 'ls_huntrx', group: 'Huntrx', name: 'Huntrx LS', rarity: 'Rare', img: 'assets/default_lightstick.png' },
-    { id: 'ls_fromis9', group: 'fromis_9', name: 'Fromis Candlebong', rarity: 'Rare', img: 'assets/default_lightstick.png' }
+    { id: 'ls_huntrx', group: 'Huntrx', name: 'Huntrx LS', rarity: 'Golden', img: 'assets/default_lightstick.png' },
+    { id: 'ls_fromis9', group: 'fromis_9', name: 'Fromis Candlebong', rarity: 'Epic', img: 'assets/default_lightstick.png' },
+    { id: 'ls_dreamcatcher', group: 'Dreamcatcher', name: 'Dreamcatcher Robe', rarity: 'Rare', img: 'assets/default_lightstick.png' },
+    { id: 'ls_redvelvet', group: 'Red Velvet', name: 'Red Velvet Luvbong', rarity: 'Common', img: 'assets/default_lightstick.png' }
 
 
 ];
