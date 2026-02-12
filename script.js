@@ -291,24 +291,192 @@ const lightsticks = [
 
 ];
 
+// Config: Albums
+const albums = [
+    // Blackpink Albums
+    { id: 'alb_bp_thealbum', group: 'Blackpink', name: 'The Album', type: 'Album', rarity: 'Rare', img: 'assets/default_album.png' },
+    { id: 'alb_bp_bornpink', group: 'Blackpink', name: 'Born Pink', type: 'Album', rarity: 'Secret', img: 'assets/default_album.png' },
+
+    // Blackpink EPs
+    { id: 'ep_bp_squareup', group: 'Blackpink', name: 'Square Up', type: 'EP', rarity: 'Epic', img: 'assets/default_album.png' },
+    { id: 'ep_bp_killthislove', group: 'Blackpink', name: 'Kill This Love', type: 'EP', rarity: 'Legendary', img: 'assets/default_album.png' },
+
+    // BTS Albums
+    { id: 'alb_bts_darkwild', group: 'BTS', name: 'Dark & Wild', type: 'Album', rarity: 'Epic', img: 'assets/default_album.png' },
+    { id: 'alb_bts_wings', group: 'BTS', name: 'Wings', type: 'Album', rarity: 'Secret', img: 'assets/default_album.png' },
+    { id: 'alb_bts_tear', group: 'BTS', name: 'Love Yourself: Tear', type: 'Album', rarity: 'Legendary', img: 'assets/default_album.png' },
+    { id: 'alb_bts_mots', group: 'BTS', name: 'Map of the Soul', type: 'Album', rarity: 'Epic', img: 'assets/default_album.png' },
+    { id: 'alb_bts_wakeup', group: 'BTS', name: 'Wake Up', type: 'Album', rarity: 'Rare', img: 'assets/default_album.png' },
+    { id: 'alb_bts_youth', group: 'BTS', name: 'Youth', type: 'Album', rarity: 'Rare', img: 'assets/default_album.png' },
+    { id: 'alb_bts_faceyourself', group: 'BTS', name: 'Face Yourself', type: 'Album', rarity: 'Epic', img: 'assets/default_album.png' },
+    { id: 'alb_bts_mots7journey', group: 'BTS', name: 'Map of the Soul: 7 - The Journey', type: 'Album', rarity: 'Legendary', img: 'assets/default_album.png' },
+
+    // BTS EPs
+    { id: 'ep_bts_orul82', group: 'BTS', name: 'O!RUL8,2?', type: 'EP', rarity: 'Epic', img: 'assets/default_album.png' },
+    { id: 'ep_bts_skoolluv', group: 'BTS', name: 'Skool Luv Affair', type: 'EP', rarity: 'Legendary', img: 'assets/default_album.png' },
+    { id: 'ep_bts_hyyh1', group: 'BTS', name: 'The Most Beautiful Moment in Life, Part 1', type: 'EP', rarity: 'Secret', img: 'assets/default_album.png' },
+    { id: 'ep_bts_hyyh2', group: 'BTS', name: 'The Most Beautiful Moment in Life, Part 2', type: 'EP', rarity: 'Epic', img: 'assets/default_album.png' },
+    { id: 'ep_bts_lyher', group: 'BTS', name: 'Love Yourself: Her', type: 'EP', rarity: 'Legendary', img: 'assets/default_album.png' },
+    { id: 'ep_bts_motspersona', group: 'BTS', name: 'Map of the Soul: Persona', type: 'EP', rarity: 'Golden', img: 'assets/default_album.png' }
+];
 
 
-const PACK_COST = 200;
-const SUPER_PACK_COST = 2000;
-const VIP_PACK_COST = 500;
-const ELITE_PACK_COST = 2500;
-const PLATINUM_PACK_COST = 5000;
-const DIAMOND_PACK_COST = 5000;
 
-const FAN_CLUB_COST = 10000;
-const CONCERT_COST = 50000;
+const packData = {
+    // --- CLICK PACKS (Hearts) ---
+    'standard': {
+        name: 'Standard Pack',
+        cost: 200,
+        currency: 'score',
+        desc: 'A basic pack for beginners. Contains mostly Common cards.',
+        img: '🎫',
+        rates: { 'Common': 70, 'Rare': 25, 'Epic': 5, 'Legendary': 0, 'Secret': 0, 'Golden': 0 }
+    },
+    'super': {
+        name: 'Super Fan Pack',
+        cost: 2000,
+        currency: 'score',
+        desc: 'Better chances for higher rarity cards.',
+        img: '💖',
+        rates: { 'Common': 55, 'Rare': 30, 'Epic': 13, 'Legendary': 2, 'Secret': 0, 'Golden': 0 }
+    },
+    'platinum': {
+        name: 'Platinum Pack',
+        cost: 5000,
+        currency: 'score',
+        desc: 'High chance for Epic and Legendary cards!',
+        img: '💿',
+        rates: { 'Common': 35, 'Rare': 35, 'Epic': 22, 'Legendary': 6, 'Secret': 2, 'Golden': 0 }
+    },
+    'fan_club': {
+        name: 'Fan Club Pack',
+        cost: 10000,
+        currency: 'score',
+        desc: 'Exclusive pack for true fans. Great rates.',
+        img: '🎪',
+        rates: { 'Common': 0, 'Rare': 35, 'Epic': 40, 'Legendary': 18, 'Secret': 6, 'Golden': 1 }
+    },
+    'concert': {
+        name: 'Concert Pack',
+        cost: 50000,
+        currency: 'score',
+        desc: 'The ultimate experience! Guarantees high rarity.',
+        img: '🏟️',
+        rates: { 'Common': 0, 'Rare': 0, 'Epic': 55, 'Legendary': 30, 'Secret': 12, 'Golden': 3 }
+    },
 
-const BACKSTAGE_COST = 15000;
-const WORLD_TOUR_COST = 50000;
+    // --- ALBUM PACKS (Coins) ---
+    'debut_single': {
+        name: 'Debut Single',
+        cost: 200,
+        currency: 'coins',
+        desc: 'A fresh start. Contains basic cards.',
+        img: '💿',
+        rates: { 'Common': 70, 'Rare': 25, 'Epic': 5, 'Legendary': 0, 'Secret': 0, 'Golden': 0 }
+    },
+    'mini_album': {
+        name: 'Mini Album',
+        cost: 2000,
+        currency: 'coins',
+        desc: 'A solid comeback. Better rates.',
+        img: '📀',
+        rates: { 'Common': 55, 'Rare': 30, 'Epic': 13, 'Legendary': 2, 'Secret': 0, 'Golden': 0 }
+    },
+    'full_album': {
+        name: 'Full Album',
+        cost: 5000,
+        currency: 'coins',
+        desc: 'The complete experience. Great value.',
+        img: '🎵',
+        rates: { 'Common': 35, 'Rare': 35, 'Epic': 22, 'Legendary': 6, 'Secret': 2, 'Golden': 0 }
+    },
+    'repackage': {
+        name: 'Repackage Album',
+        cost: 10000,
+        currency: 'coins',
+        desc: 'Bonus tracks included! High Epic chance.',
+        img: '🎼',
+        rates: { 'Common': 0, 'Rare': 35, 'Epic': 40, 'Legendary': 18, 'Secret': 6, 'Golden': 1 }
+    },
+    'collectors_box': {
+        name: 'Collector\'s Box',
+        cost: 50000,
+        currency: 'coins',
+        desc: 'For the ultimate collector. Best rates.',
+        img: '📦',
+        rates: { 'Common': 0, 'Rare': 0, 'Epic': 55, 'Legendary': 30, 'Secret': 12, 'Golden': 3 }
+    },
 
-const LS_STD_COST = 2500;
-const LS_PREM_COST = 5000;
-const LS_ULT_COST = 10000;
+    // --- VIP PACKS (Coins) ---
+    'vip': {
+        name: 'VIP Pack',
+        cost: 500,
+        currency: 'coins',
+        desc: 'Premium pack purchasable with Coins.',
+        img: '👑',
+        rates: { 'Common': 0, 'Rare': 45, 'Epic': 35, 'Legendary': 18, 'Secret': 2, 'Golden': 0 }
+    },
+    'elite': {
+        name: 'Elite Star Pack',
+        cost: 2500,
+        currency: 'coins',
+        desc: 'Elite status for elite collections.',
+        img: '💎',
+        rates: { 'Common': 0, 'Rare': 0, 'Epic': 45, 'Legendary': 35, 'Secret': 18, 'Golden': 2 }
+    },
+    'diamond': {
+        name: 'Diamond Pack',
+        cost: 5000,
+        currency: 'coins',
+        desc: 'Shine bright with Diamond quality cards.',
+        img: '🔮',
+        rates: { 'Common': 0, 'Rare': 0, 'Epic': 30, 'Legendary': 38, 'Secret': 21, 'Golden': 11 }
+    },
+    'backstage': {
+        name: 'Backstage Pack',
+        cost: 15000,
+        currency: 'coins',
+        desc: 'Access to the rarest of the rare.',
+        img: '🕶️',
+        rates: { 'Common': 0, 'Rare': 0, 'Epic': 0, 'Legendary': 45, 'Secret': 35, 'Golden': 20 }
+    },
+    'world_tour': {
+        name: 'World Tour Pack',
+        cost: 50000,
+        currency: 'coins',
+        desc: 'Global domination! Incredible Secret & Golden rates.',
+        img: '🌎',
+        rates: { 'Common': 0, 'Rare': 0, 'Epic': 0, 'Legendary': 35, 'Secret': 40, 'Golden': 25 }
+    },
+
+    // --- LIGHTSTICK PACKS (Coins) ---
+    'ls_std': {
+        name: 'Standard Lightstick Pack',
+        cost: 2500,
+        currency: 'coins',
+        desc: 'Start your lightstick collection.',
+        img: '🔦',
+        rates: { 'Common': 55, 'Rare': 35, 'Epic': 9, 'Legendary': 1, 'Secret': 0, 'Golden': 0 }
+    },
+    'ls_prem': {
+        name: 'Premium Lightstick Pack',
+        cost: 5000,
+        currency: 'coins',
+        desc: 'Higher chance for rare lightsticks.',
+        img: '✨',
+        rates: { 'Common': 0, 'Rare': 55, 'Epic': 30, 'Legendary': 12, 'Secret': 2, 'Golden': 1 }
+    },
+    'ls_ult': {
+        name: 'Ultimate Lightstick Pack',
+        cost: 10000,
+        currency: 'coins',
+        desc: 'The best lightsticks in the industry.',
+        img: '🎇',
+        rates: { 'Common': 0, 'Rare': 0, 'Epic': 55, 'Legendary': 30, 'Secret': 12, 'Golden': 3 }
+    }
+};
+
+const PACK_COST = packData['standard'].cost; // Keep strictly for legacy ref if needed
 
 const MAX_LEVEL = 10;
 
@@ -348,6 +516,47 @@ window.closeLightstickModal = function () {
     document.getElementById('lightstick-modal').classList.add('hidden');
 };
 
+// --- PACK MODAL LOGIC ---
+window.openPackModal = function (type) {
+    const pack = packData[type];
+    if (!pack) return;
+
+    // Populate Modal
+    document.getElementById('modal-pack-title').innerText = pack.name;
+    document.getElementById('modal-pack-desc').innerText = pack.desc;
+    document.getElementById('modal-pack-icon').innerText = pack.img;
+    document.getElementById('modal-pack-cost').innerText = pack.cost.toLocaleString();
+    document.getElementById('modal-pack-currency').innerText = pack.currency === 'score' ? '❤️' : '🌟';
+
+    // Populate Rates
+    const ratesContainer = document.getElementById('modal-pack-rates');
+    ratesContainer.innerHTML = '';
+    for (const [rarity, chance] of Object.entries(pack.rates)) {
+        if (chance > 0) {
+            const row = document.createElement('div');
+            row.className = 'rate-item';
+            row.innerHTML = `<span class="rate-rarity rate-${rarity}">${rarity}</span> <span>${chance}%</span>`;
+            ratesContainer.appendChild(row);
+        }
+    }
+
+    // Setup Buy Button
+    const buyBtn = document.getElementById('modal-buy-btn');
+    buyBtn.onclick = function () {
+        buyPack(type);
+        closePackModal(); // Optional: Close on buy? Or keep open for multi-buy? 
+        // User asked for "bouton pour acheter le pack", usually implies one action. 
+        // Let's keep it open for multi buttons or just close it. 
+        // Actually, existing flow triggers animation which covers everything.
+    };
+
+    document.getElementById('pack-purchase-modal').classList.remove('hidden');
+};
+
+window.closePackModal = function () {
+    document.getElementById('pack-purchase-modal').classList.add('hidden');
+};
+
 
 document.addEventListener('DOMContentLoaded', () => {
     initGame();
@@ -366,27 +575,11 @@ function initGame() {
 }
 
 window.buyPack = function (type) {
-    let cost = 0;
-    let currency = 'score';
+    const pack = packData[type];
+    if (!pack) return;
 
-    // Standard Cards
-    if (type === 'standard') { cost = PACK_COST; currency = 'score'; }
-    if (type === 'super') { cost = SUPER_PACK_COST; currency = 'score'; }
-    if (type === 'platinum') { cost = PLATINUM_PACK_COST; currency = 'score'; }
-    if (type === 'fan_club') { cost = FAN_CLUB_COST; currency = 'score'; }
-    if (type === 'concert') { cost = CONCERT_COST; currency = 'score'; }
-
-    // Premium Cards (Coins)
-    if (type === 'vip') { cost = VIP_PACK_COST; currency = 'coins'; }
-    if (type === 'elite') { cost = ELITE_PACK_COST; currency = 'coins'; }
-    if (type === 'diamond') { cost = DIAMOND_PACK_COST; currency = 'coins'; }
-    if (type === 'backstage') { cost = BACKSTAGE_COST; currency = 'coins'; }
-    if (type === 'world_tour') { cost = WORLD_TOUR_COST; currency = 'coins'; }
-
-    // Lightstick Packs (Coins)
-    if (type === 'ls_std') { cost = LS_STD_COST; currency = 'coins'; }
-    if (type === 'ls_prem') { cost = LS_PREM_COST; currency = 'coins'; }
-    if (type === 'ls_ult') { cost = LS_ULT_COST; currency = 'coins'; }
+    const cost = pack.cost;
+    const currency = pack.currency;
 
     if (state[currency] >= cost) {
         state[currency] -= cost;
@@ -703,6 +896,19 @@ function pullCard(type = 'standard') {
         weights = { 'Common': 0, 'Rare': 0, 'Epic': 55, 'Legendary': 30, 'Secret': 12, 'Golden': 3 };
     }
 
+    // --- ALBUM PACKS (Hearts) ---
+    else if (type === 'debut_single') {
+        weights = { 'Common': 70, 'Rare': 25, 'Epic': 5, 'Legendary': 0, 'Secret': 0, 'Golden': 0 };
+    } else if (type === 'mini_album') {
+        weights = { 'Common': 55, 'Rare': 30, 'Epic': 13, 'Legendary': 2, 'Secret': 0, 'Golden': 0 };
+    } else if (type === 'full_album') {
+        weights = { 'Common': 35, 'Rare': 35, 'Epic': 22, 'Legendary': 6, 'Secret': 2, 'Golden': 0 };
+    } else if (type === 'repackage') {
+        weights = { 'Common': 0, 'Rare': 35, 'Epic': 40, 'Legendary': 18, 'Secret': 6, 'Golden': 1 };
+    } else if (type === 'collectors_box') {
+        weights = { 'Common': 0, 'Rare': 0, 'Epic': 55, 'Legendary': 30, 'Secret': 12, 'Golden': 3 };
+    }
+
     // --- COIN PACKS ---
     else if (type === 'vip') {
         weights = { 'Common': 0, 'Rare': 45, 'Epic': 35, 'Legendary': 18, 'Secret': 2, 'Golden': 0 };
@@ -722,6 +928,12 @@ function pullCard(type = 'standard') {
         if (type === 'ls_std') weights = { 'Common': 55, 'Rare': 35, 'Epic': 9, 'Legendary': 1, 'Secret': 0, 'Golden': 0 };
         if (type === 'ls_prem') weights = { 'Common': 0, 'Rare': 55, 'Epic': 30, 'Legendary': 12, 'Secret': 2, 'Golden': 1 };
         if (type === 'ls_ult') weights = { 'Common': 0, 'Rare': 0, 'Epic': 55, 'Legendary': 30, 'Secret': 12, 'Golden': 3 };
+    }
+
+    // --- ALBUM PACKS ---
+    if (['debut_single', 'mini_album', 'full_album', 'repackage', 'collectors_box'].includes(type)) {
+        poolSource = albums;
+        // Weights handled above by pack type name
     }
 
     // 1. Determine Rarity
@@ -871,6 +1083,10 @@ function showCardDetails(cardId) {
     if (!cardDef) {
         // Fallback: Check lightsticks
         cardDef = lightsticks.find(c => c.id === cardId);
+        if (!cardDef) {
+            // Fallback: Check albums
+            cardDef = albums.find(c => c.id === cardId);
+        }
     }
     if (!cardDef) return;
 
@@ -894,6 +1110,9 @@ function showCardDetails(cardId) {
         if (cardDef.rarity === 'Golden') value = 5000;
 
 
+        if (cardDef.rarity === 'Golden') value = 5000;
+
+
         // We sell the FIRST instance found (ownedIndices[0])
         // Need to wrap sell call to re-render details after selling
         sellButtonHTML = `
@@ -913,6 +1132,7 @@ function showCardDetails(cardId) {
                 <h2>${cardDef.name}</h2>
                 <p class="rarity-tag">${cardDef.rarity}</p>
                 <p class="group-tag">${cardDef.group}</p>
+                ${cardDef.type ? `<p class="type-tag" style="color:#aaa; font-size:0.9em; margin:0.3rem 0;">${cardDef.type}</p>` : ''}
                 <p class="count-tag">Owned: ${count}</p>
                 <hr style="border-color:rgba(255,255,255,0.1); width:100%; margin:1rem 0;">
                 ${sellButtonHTML}
@@ -934,6 +1154,10 @@ window.sellCardFromDetails = function (cardId) {
     // Refresh lightstick modal if it's open
     if (!document.getElementById('lightstick-modal').classList.contains('hidden')) {
         renderLightsticks();
+    }
+    // Refresh album modal if it's open
+    if (document.getElementById('album-modal') && !document.getElementById('album-modal').classList.contains('hidden')) {
+        renderAlbums();
     }
 };
 
@@ -1086,7 +1310,12 @@ function showPackOpeningAnimation(packType) {
         'elite': '💎',
         'platinum': '💿',
         'diamond': '🔮',
-        'backstage': '🕶️'
+        'backstage': '🕶️',
+        'debut_single': '💿',
+        'mini_album': '📀',
+        'full_album': '🎵',
+        'repackage': '🎼',
+        'collectors_box': '📦'
     };
     packIcon.textContent = packIcons[packType] || '🎁';
 
@@ -1281,6 +1510,79 @@ window.openLightstickModal = function () {
 
 window.closeLightstickModal = function () {
     document.getElementById('lightstick-modal').classList.add('hidden');
+}
+
+// Album Modal Logic
+window.openAlbumModal = function () {
+    document.getElementById('album-modal').classList.remove('hidden');
+    renderAlbums();
+};
+
+window.closeAlbumModal = function () {
+    document.getElementById('album-modal').classList.add('hidden');
+};
+
+function renderAlbums() {
+    const grid = document.getElementById('album-grid');
+    grid.innerHTML = '';
+
+    // Get unique groups from albums
+    const groups = [...new Set(albums.map(a => a.group))];
+
+    groups.forEach(groupName => {
+        // Create Group Header
+        const header = document.createElement('h3');
+        header.className = 'group-header';
+        header.innerText = groupName;
+        grid.appendChild(header);
+
+        // Create Container for this group
+        const groupContainer = document.createElement('div');
+        groupContainer.className = 'group-container';
+
+        // Filter albums for this group
+        const groupAlbums = albums.filter(a => a.group === groupName);
+
+        groupAlbums.forEach(item => {
+            // Check ownership
+            const ownedIndices = state.inventory
+                .map((c, i) => (c.id === item.id ? i : -1))
+                .filter(i => i !== -1);
+
+            const count = ownedIndices.length;
+            const isOwned = count > 0;
+
+            const el = document.createElement('div');
+            // Use binder-card class for consistent styling with idol cards
+            el.className = `binder-card ${isOwned ? '' : 'locked'} card-rarity-${item.rarity}`;
+
+            let content = '';
+            if (isOwned) {
+                el.onclick = () => showCardDetails(item.id);
+                el.style.cursor = 'pointer';
+                content = `
+                    <div class="card-inner-view">
+                        <div class="card-count-badge">x${count}</div>
+                        <img src="${item.img}" class="full-card-img" onerror="this.onerror=null; this.src='assets/default_album.png'">
+                        <div class="card-name">${item.name}</div>
+                    </div>
+                `;
+            } else {
+                // Locked View
+                content = `
+                    <div class="card-inner-view locked-view">
+                        <div class="lock-icon">🔒</div>
+                        <div class="card-name">???<br><span style="font-size:0.8em; color:#666;">Unknown</span></div>
+                    </div>
+                `;
+            }
+
+            el.innerHTML = content;
+            groupContainer.appendChild(el);
+        });
+
+        grid.appendChild(groupContainer);
+    });
 }
 
 function renderLightsticks() {

@@ -1817,3 +1817,270 @@ h2 {
         filter: hue-rotate(180deg);
     }
 }
+
+/* --- Gacha UI Overhaul Styles --- */
+
+/* Gacha List Layout */
+.gacha-category {
+    margin-bottom: 2rem;
+}
+
+.gacha-category h3 {
+    font-size: 1rem;
+    color: var(--soft-blue);
+    margin-bottom: 0.8rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.gacha-btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gacha-list-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 1rem 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 15px;
+    color: var(--text-main);
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-align: left;
+    width: 100%;
+}
+
+.gacha-list-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-color: var(--primary-pink);
+}
+
+.gacha-icon {
+    font-size: 1.8rem;
+}
+
+/* Specific Button Styles */
+.vip-btn-style {
+    background: linear-gradient(90deg, rgba(255, 215, 0, 0.05), rgba(0, 0, 0, 0));
+    border-left: 3px solid #FFD700;
+}
+
+.vip-btn-style:hover {
+    background: linear-gradient(90deg, rgba(255, 215, 0, 0.2), rgba(0, 0, 0, 0));
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+}
+
+.album-btn-style {
+    background: linear-gradient(90deg, rgba(147, 112, 219, 0.05), rgba(0, 0, 0, 0));
+    /* Medium Purple */
+    border-left: 3px solid #9370DB;
+}
+
+.album-btn-style:hover {
+    background: linear-gradient(90deg, rgba(147, 112, 219, 0.2), rgba(0, 0, 0, 0));
+    box-shadow: 0 0 15px rgba(147, 112, 219, 0.2);
+}
+
+.ls-btn-style {
+    background: linear-gradient(90deg, rgba(137, 207, 240, 0.05), rgba(0, 0, 0, 0));
+    border-left: 3px solid #89CFF0;
+}
+
+.ls-btn-style:hover {
+    background: linear-gradient(90deg, rgba(137, 207, 240, 0.2), rgba(0, 0, 0, 0));
+    box-shadow: 0 0 15px rgba(137, 207, 240, 0.2);
+}
+
+/* Pack Details Modal */
+.pack-details-content {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    max-height: 90vh;
+    padding: 2rem;
+    border: 1px solid var(--primary-pink);
+    box-shadow: 0 0 30px rgba(255, 105, 180, 0.3);
+    text-align: center;
+    overflow-y: auto;
+}
+
+.pack-details-header {
+    margin-bottom: 1.5rem;
+}
+
+.pack-icon-large {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    animation: floatIcon 3s ease-in-out infinite;
+}
+
+@keyframes floatIcon {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+#modal-pack-title {
+    font-size: 1.8rem;
+    background: linear-gradient(to right, #fff, var(--primary-pink));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+/* Album Card Styles */
+.album-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 140px;
+    /* Wider than lightsticks/cards maybe? or stick to grid */
+    flex-shrink: 0;
+}
+
+.album-card img {
+    width: 100px;
+    height: 100px;
+    /* Square */
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.album-card.locked img {
+    filter: grayscale(1) blur(3px) opacity(0.5);
+}
+
+.album-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-color: var(--primary-pink);
+}
+
+
+#modal-pack-desc {
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.pack-rates-container {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.pack-rates-container h4 {
+    margin-bottom: 10px;
+    color: var(--soft-blue);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.rates-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    text-align: left;
+}
+
+.rate-item {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate-rarity {
+    font-weight: bold;
+}
+
+/* Rarity Colors for Rates */
+.rate-Common {
+    color: #ccc;
+}
+
+.rate-Rare {
+    color: #89CFF0;
+}
+
+.rate-Epic {
+    color: #E0B0FF;
+}
+
+.rate-Legendary {
+    color: #FFD700;
+}
+
+.rate-Secret {
+    color: #FF00FF;
+}
+
+.rate-Golden {
+    color: #FFA500;
+    text-shadow: 0 0 5px gold;
+}
+
+.pack-action-area {
+    margin-top: auto;
+}
+
+.price-tag {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+}
+
+.buy-confirm-btn {
+    background: var(--primary-pink);
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+    width: 100%;
+    transition: transform 0.2s;
+    border-radius: 30px;
+}
+
+.buy-confirm-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+    background: #ff69b4;
+}
+
+.close-modal-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-muted);
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    margin-top: 10px;
+    border: 1px solid var(--glass-border);
+    border-radius: 25px;
+    width: 100%;
+}
+
+.close-modal-btn:hover {
+    background: rgba(255, 68, 68, 0.2);
+    border-color: #ff4444;
+    color: #ff4444;
+}
