@@ -103,163 +103,163 @@ const premiumUpgrades = [
 // Groups: BTS, Blackpink, IVE, Stray Kids, Aespa, NewJeans, Seventeen, Twice
 const cardPool = [
     // --- BLACKPINK (F) ---
-    { id: 'idol_jennie', name: 'Jennie (BP)', rarity: 'Legendary', group: 'Blackpink', gender: 'F', img: 'assets/idol_jennie.jpeg' },
-    { id: 'idol_lisa', name: 'Lisa (BP)', rarity: 'Secret', group: 'Blackpink', gender: 'F', img: 'assets/idol_lisa.jpeg' },
-    { id: 'idol_rose', name: 'Rosé (BP)', rarity: 'Epic', group: 'Blackpink', gender: 'F', img: 'assets/idol_rose.jpeg' },
-    { id: 'idol_jisoo', name: 'Jisoo (BP)', rarity: 'Rare', group: 'Blackpink', gender: 'F', img: 'assets/idol_jisoo.jpeg' },
+    { id: 'idol_jennie', name: 'Jennie (BP)', rarity: 'Legendary', group: 'Blackpink', gender: 'F', img: 'assets/idols/idol_jennie.jpeg' },
+    { id: 'idol_lisa', name: 'Lisa (BP)', rarity: 'Secret', group: 'Blackpink', gender: 'F', img: 'assets/idols/idol_lisa.jpeg' },
+    { id: 'idol_rose', name: 'Rosé (BP)', rarity: 'Epic', group: 'Blackpink', gender: 'F', img: 'assets/idols/idol_rose.jpeg' },
+    { id: 'idol_jisoo', name: 'Jisoo (BP)', rarity: 'Rare', group: 'Blackpink', gender: 'F', img: 'assets/idols/idol_jisoo.jpeg' },
 
     // --- BTS (M) ---
-    { id: 'idol_rm', name: 'RM (BTS)', rarity: 'Rare', group: 'BTS', gender: 'M', img: 'assets/idol_rm.jpeg' },
-    { id: 'idol_jin', name: 'Jin (BTS)', rarity: 'Rare', group: 'BTS', gender: 'M', img: 'assets/idol_jin.png' },
-    { id: 'idol_suga', name: 'Suga (BTS)', rarity: 'Epic', group: 'BTS', gender: 'M', img: 'assets/idol_suga.jpg' },
-    { id: 'idol_jhope', name: 'J-Hope (BTS)', rarity: 'Rare', group: 'BTS', gender: 'M', img: 'assets/idol_jhope.jpg' },
-    { id: 'idol_jimin', name: 'Jimin (BTS)', rarity: 'Epic', group: 'BTS', gender: 'M', img: 'assets/idol_jimin.jpg' },
-    { id: 'idol_v', name: 'V (BTS)', rarity: 'Secret', group: 'BTS', gender: 'M', img: 'assets/idol_v.jpg' },
-    { id: 'idol_jungkook', name: 'Jungkook (BTS)', rarity: 'Legendary', group: 'BTS', gender: 'M', img: 'assets/idol_jungkook.png' },
+    { id: 'idol_rm', name: 'RM (BTS)', rarity: 'Rare', group: 'BTS', gender: 'M', img: 'assets/idols/idol_rm.jpeg' },
+    { id: 'idol_jin', name: 'Jin (BTS)', rarity: 'Rare', group: 'BTS', gender: 'M', img: 'assets/idols/idol_jin.png' },
+    { id: 'idol_suga', name: 'Suga (BTS)', rarity: 'Epic', group: 'BTS', gender: 'M', img: 'assets/idols/idol_suga.jpg' },
+    { id: 'idol_jhope', name: 'J-Hope (BTS)', rarity: 'Rare', group: 'BTS', gender: 'M', img: 'assets/idols/idol_jhope.jpg' },
+    { id: 'idol_jimin', name: 'Jimin (BTS)', rarity: 'Epic', group: 'BTS', gender: 'M', img: 'assets/idols/idol_jimin.jpg' },
+    { id: 'idol_v', name: 'V (BTS)', rarity: 'Secret', group: 'BTS', gender: 'M', img: 'assets/idols/idol_v.jpg' },
+    { id: 'idol_jungkook', name: 'Jungkook (BTS)', rarity: 'Legendary', group: 'BTS', gender: 'M', img: 'assets/idols/idol_jungkook.png' },
 
     // --- STRAY KIDS (M) ---
-    { id: 'idol_bangchan', name: 'Bang Chan (SKZ)', rarity: 'Epic', group: 'Stray Kids', gender: 'M', img: 'assets/idol_bangchan.png' },
-    { id: 'idol_leeknow', name: 'Lee Know (SKZ)', rarity: 'Rare', group: 'Stray Kids', gender: 'M', img: 'assets/idol_leeknow.jpg' },
-    { id: 'idol_changbin', name: 'Changbin (SKZ)', rarity: 'Common', group: 'Stray Kids', gender: 'M', img: 'assets/idol_changbin.jpg' },
-    { id: 'idol_hyunjin', name: 'Hyunjin (SKZ)', rarity: 'Legendary', group: 'Stray Kids', gender: 'M', img: 'assets/idol_hyunjin.jpg' },
-    { id: 'idol_han', name: 'Han (SKZ)', rarity: 'Epic', group: 'Stray Kids', gender: 'M', img: 'assets/idol_han.jpg' },
-    { id: 'idol_felix', name: 'Felix (SKZ)', rarity: 'Secret', group: 'Stray Kids', gender: 'M', img: 'assets/idol_felix.png' },
-    { id: 'idol_seungmin', name: 'Seungmin (SKZ)', rarity: 'Common', group: 'Stray Kids', gender: 'M', img: 'assets/idol_seungmin.jpg' },
-    { id: 'idol_in', name: 'I.N (SKZ)', rarity: 'Common', group: 'Stray Kids', gender: 'M', img: 'assets/idol_in.png' },
+    { id: 'idol_bangchan', name: 'Bang Chan (SKZ)', rarity: 'Epic', group: 'Stray Kids', gender: 'M', img: 'assets/idols/idol_bangchan.png' },
+    { id: 'idol_leeknow', name: 'Lee Know (SKZ)', rarity: 'Rare', group: 'Stray Kids', gender: 'M', img: 'assets/idols/idol_leeknow.jpg' },
+    { id: 'idol_changbin', name: 'Changbin (SKZ)', rarity: 'Common', group: 'Stray Kids', gender: 'M', img: 'assets/idols/idol_changbin.jpg' },
+    { id: 'idol_hyunjin', name: 'Hyunjin (SKZ)', rarity: 'Legendary', group: 'Stray Kids', gender: 'M', img: 'assets/idols/idol_hyunjin.jpg' },
+    { id: 'idol_han', name: 'Han (SKZ)', rarity: 'Epic', group: 'Stray Kids', gender: 'M', img: 'assets/idols/idol_han.jpg' },
+    { id: 'idol_felix', name: 'Felix (SKZ)', rarity: 'Secret', group: 'Stray Kids', gender: 'M', img: 'assets/idols/idol_felix.png' },
+    { id: 'idol_seungmin', name: 'Seungmin (SKZ)', rarity: 'Common', group: 'Stray Kids', gender: 'M', img: 'assets/idols/idol_seungmin.jpg' },
+    { id: 'idol_in', name: 'I.N (SKZ)', rarity: 'Common', group: 'Stray Kids', gender: 'M', img: 'assets/idols/idol_in.png' },
 
     // --- TWICE (F) ---
-    { id: 'idol_nayeon', name: 'Nayeon (Twice)', rarity: 'Legendary', group: 'Twice', gender: 'F', img: 'assets/idol_nayeon.jpg' },
-    { id: 'idol_jeongyeon', name: 'Jeongyeon (Twice)', rarity: 'Common', group: 'Twice', gender: 'F', img: 'assets/idol_jeongyeon.jpg' },
-    { id: 'idol_momo', name: 'Momo (Twice)', rarity: 'Epic', group: 'Twice', gender: 'F', img: 'assets/idol_momo.jpg' },
-    { id: 'idol_sana', name: 'Sana (Twice)', rarity: 'Secret', group: 'Twice', gender: 'F', img: 'assets/idol_sana.jpg' },
-    { id: 'idol_jihyo', name: 'Jihyo (Twice)', rarity: 'Epic', group: 'Twice', gender: 'F', img: 'assets/idol_jihyo.jpg' },
-    { id: 'idol_mina', name: 'Mina (Twice)', rarity: 'Rare', group: 'Twice', gender: 'F', img: 'assets/idol_mina.jpg' },
-    { id: 'idol_dahyun', name: 'Dahyun (Twice)', rarity: 'Rare', group: 'Twice', gender: 'F', img: 'assets/idol_dahyun.jpg' },
-    { id: 'idol_chaeyoung', name: 'Chaeyoung (Twice)', rarity: 'Common', group: 'Twice', gender: 'F', img: 'assets/idol_chaeyoung.jpg' },
-    { id: 'idol_tzuyu', name: 'Tzuyu (Twice)', rarity: 'Epic', group: 'Twice', gender: 'F', img: 'assets/idol_tzuyu.jpg' },
+    { id: 'idol_nayeon', name: 'Nayeon (Twice)', rarity: 'Legendary', group: 'Twice', gender: 'F', img: 'assets/idols/idol_nayeon.jpg' },
+    { id: 'idol_jeongyeon', name: 'Jeongyeon (Twice)', rarity: 'Common', group: 'Twice', gender: 'F', img: 'assets/idols/idol_jeongyeon.jpg' },
+    { id: 'idol_momo', name: 'Momo (Twice)', rarity: 'Epic', group: 'Twice', gender: 'F', img: 'assets/idols/idol_momo.jpg' },
+    { id: 'idol_sana', name: 'Sana (Twice)', rarity: 'Secret', group: 'Twice', gender: 'F', img: 'assets/idols/idol_sana.jpg' },
+    { id: 'idol_jihyo', name: 'Jihyo (Twice)', rarity: 'Epic', group: 'Twice', gender: 'F', img: 'assets/idols/idol_jihyo.jpg' },
+    { id: 'idol_mina', name: 'Mina (Twice)', rarity: 'Rare', group: 'Twice', gender: 'F', img: 'assets/idols/idol_mina.jpg' },
+    { id: 'idol_dahyun', name: 'Dahyun (Twice)', rarity: 'Rare', group: 'Twice', gender: 'F', img: 'assets/idols/idol_dahyun.jpg' },
+    { id: 'idol_chaeyoung', name: 'Chaeyoung (Twice)', rarity: 'Common', group: 'Twice', gender: 'F', img: 'assets/idols/idol_chaeyoung.jpg' },
+    { id: 'idol_tzuyu', name: 'Tzuyu (Twice)', rarity: 'Epic', group: 'Twice', gender: 'F', img: 'assets/idols/idol_tzuyu.jpg' },
 
     // --- AESPA (F) ---
-    { id: 'idol_karina', name: 'Karina (Aespa)', rarity: 'Legendary', group: 'Aespa', gender: 'F', img: 'assets/idol_karina.png' },
-    { id: 'idol_giselle', name: 'Giselle (Aespa)', rarity: 'Common', group: 'Aespa', gender: 'F', img: 'assets/idol_giselle.jpg' },
-    { id: 'idol_winter', name: 'Winter (Aespa)', rarity: 'Epic', group: 'Aespa', gender: 'F', img: 'assets/idol_winter.jpg' },
-    { id: 'idol_ningning', name: 'Ningning (Aespa)', rarity: 'Rare', group: 'Aespa', gender: 'F', img: 'assets/idol_ningning.jpg' },
+    { id: 'idol_karina', name: 'Karina (Aespa)', rarity: 'Legendary', group: 'Aespa', gender: 'F', img: 'assets/idols/idol_karina.png' },
+    { id: 'idol_giselle', name: 'Giselle (Aespa)', rarity: 'Common', group: 'Aespa', gender: 'F', img: 'assets/idols/idol_giselle.jpg' },
+    { id: 'idol_winter', name: 'Winter (Aespa)', rarity: 'Epic', group: 'Aespa', gender: 'F', img: 'assets/idols/idol_winter.jpg' },
+    { id: 'idol_ningning', name: 'Ningning (Aespa)', rarity: 'Rare', group: 'Aespa', gender: 'F', img: 'assets/idols/idol_ningning.jpg' },
 
     // --- BABYMONSTER (F) ---
-    { id: 'idol_ruka', name: 'Ruka (BabyMonster)', rarity: 'Legendary', group: 'BabyMonster', gender: 'F' },
-    { id: 'idol_pharita', name: 'Pharita (BabyMonster)', rarity: 'Epic', group: 'BabyMonster', gender: 'F' },
-    { id: 'idol_asa', name: 'Asa (BabyMonster)', rarity: 'Epic', group: 'BabyMonster', gender: 'F' },
-    { id: 'idol_ahyeon', name: 'Ahyeon (BabyMonster)', rarity: 'Secret', group: 'BabyMonster', gender: 'F' },
-    { id: 'idol_rami', name: 'Rami (BabyMonster)', rarity: 'Rare', group: 'BabyMonster', gender: 'F' },
-    { id: 'idol_rora', name: 'Rora (BabyMonster)', rarity: 'Rare', group: 'BabyMonster', gender: 'F' },
-    { id: 'idol_chiquita', name: 'Chiquita (BabyMonster)', rarity: 'Legendary', group: 'BabyMonster', gender: 'F' },
+    { id: 'idol_ruka', name: 'Ruka (BabyMonster)', rarity: 'Legendary', group: 'BabyMonster', gender: 'F', img: 'assets/idols/idol_ruka.jpg' },
+    { id: 'idol_pharita', name: 'Pharita (BabyMonster)', rarity: 'Epic', group: 'BabyMonster', gender: 'F', img: 'assets/idols/idol_pharita.jpg' },
+    { id: 'idol_asa', name: 'Asa (BabyMonster)', rarity: 'Epic', group: 'BabyMonster', gender: 'F', img: 'assets/idols/idol_asa.jpg' },
+    { id: 'idol_ahyeon', name: 'Ahyeon (BabyMonster)', rarity: 'Secret', group: 'BabyMonster', gender: 'F', img: 'assets/idols/idol_ahyeon.jpg' },
+    { id: 'idol_rami', name: 'Rami (BabyMonster)', rarity: 'Rare', group: 'BabyMonster', gender: 'F', img: 'assets/idols/idol_rami.jpg' },
+    { id: 'idol_rora', name: 'Rora (BabyMonster)', rarity: 'Rare', group: 'BabyMonster', gender: 'F', img: 'assets/idols/idol_rora.jpg' },
+    { id: 'idol_chiquita', name: 'Chiquita (BabyMonster)', rarity: 'Legendary', group: 'BabyMonster', gender: 'F', img: 'assets/idols/idol_chiquita.jpg' },
 
     // --- IVE (F) ---
-    { id: 'idol_wonyoung', name: 'Wonyoung (IVE)', rarity: 'Golden', group: 'IVE', gender: 'F', img: 'assets/idol_wonyoung.jpg' },
-    { id: 'idol_yujin', name: 'Yujin (IVE)', rarity: 'Epic', group: 'IVE', gender: 'F', img: 'assets/idol_yujin.png' },
-    { id: 'idol_gaeul', name: 'Gaeul (IVE)', rarity: 'Rare', group: 'IVE', gender: 'F', img: 'assets/idol_gaeul.png' },
-    { id: 'idol_rei', name: 'Rei (IVE)', rarity: 'Rare', group: 'IVE', gender: 'F', img: 'assets/idol_rei.png' },
-    { id: 'idol_liz', name: 'Liz (IVE)', rarity: 'Secret', group: 'IVE', gender: 'F', img: 'assets/idol_liz.jpg' },
-    { id: 'idol_leeseo', name: 'Leeseo (IVE)', rarity: 'Common', group: 'IVE', gender: 'F', img: 'assets/idol_leeseo.png' },
+    { id: 'idol_wonyoung', name: 'Wonyoung (IVE)', rarity: 'Golden', group: 'IVE', gender: 'F', img: 'assets/idols/idol_wonyoung.jpg' },
+    { id: 'idol_yujin', name: 'Yujin (IVE)', rarity: 'Epic', group: 'IVE', gender: 'F', img: 'assets/idols/idol_yujin.png' },
+    { id: 'idol_gaeul', name: 'Gaeul (IVE)', rarity: 'Rare', group: 'IVE', gender: 'F', img: 'assets/idols/idol_gaeul.png' },
+    { id: 'idol_rei', name: 'Rei (IVE)', rarity: 'Rare', group: 'IVE', gender: 'F', img: 'assets/idols/idol_rei.png' },
+    { id: 'idol_liz', name: 'Liz (IVE)', rarity: 'Secret', group: 'IVE', gender: 'F', img: 'assets/idols/idol_liz.jpg' },
+    { id: 'idol_leeseo', name: 'Leeseo (IVE)', rarity: 'Common', group: 'IVE', gender: 'F', img: 'assets/idols/idol_leeseo.png' },
 
     // --- LE SSERAFIM (F) ---
-    { id: 'idol_chaewon', name: 'Kim Chaewon (LSF)', rarity: 'Golden', group: 'Le Sserafim', gender: 'F' },
-    { id: 'idol_sakura', name: 'Sakura (LSF)', rarity: 'Legendary', group: 'Le Sserafim', gender: 'F' },
-    { id: 'idol_yunjin', name: 'Huh Yunjin (LSF)', rarity: 'Rare', group: 'Le Sserafim', gender: 'F' },
-    { id: 'idol_kazuha', name: 'Kazuha (LSF)', rarity: 'Secret', group: 'Le Sserafim', gender: 'F' },
-    { id: 'idol_eunchae', name: 'Hong Eunchae (LSF)', rarity: 'Rare', group: 'Le Sserafim', gender: 'F' },
+    { id: 'idol_chaewon', name: 'Kim Chaewon (LSF)', rarity: 'Golden', group: 'Le Sserafim', gender: 'F', img: 'assets/idols/idol_chaewon.jpg' },
+    { id: 'idol_sakura', name: 'Sakura (LSF)', rarity: 'Legendary', group: 'Le Sserafim', gender: 'F', img: 'assets/idols/idol_sakura.jpg' },
+    { id: 'idol_yunjin', name: 'Huh Yunjin (LSF)', rarity: 'Rare', group: 'Le Sserafim', gender: 'F', img: 'assets/idols/idol_yunjin.jpg' },
+    { id: 'idol_kazuha', name: 'Kazuha (LSF)', rarity: 'Secret', group: 'Le Sserafim', gender: 'F', img: 'assets/idols/idol_kazuha.jpg' },
+    { id: 'idol_eunchae', name: 'Hong Eunchae (LSF)', rarity: 'Rare', group: 'Le Sserafim', gender: 'F', img: 'assets/idols/idol_eunchae.jpg' },
 
     // --- NEWJEANS (F) ---
-    { id: 'idol_minji', name: 'Minji (NewJeans)', rarity: 'Legendary', group: 'NewJeans', gender: 'F', img: 'assets/idol_minji.jpg' },
-    { id: 'idol_hanni', name: 'Hanni (NewJeans)', rarity: 'Rare', group: 'NewJeans', gender: 'F', img: 'assets/idol_hanni.jpg' },
-    { id: 'idol_danielle', name: 'Danielle (NewJeans)', rarity: 'Epic', group: 'NewJeans', gender: 'F', img: 'assets/idol_danielle.png' },
-    { id: 'idol_haerin', name: 'Haerin (NewJeans)', rarity: 'Epic', group: 'NewJeans', gender: 'F', img: 'assets/idol_haerin.jpg' },
-    { id: 'idol_hyein', name: 'Hyein (NewJeans)', rarity: 'Rare', group: 'NewJeans', gender: 'F', img: 'assets/idol_hyein.png' },
+    { id: 'idol_minji', name: 'Minji (NewJeans)', rarity: 'Legendary', group: 'NewJeans', gender: 'F', img: 'assets/idols/idol_minji.jpg' },
+    { id: 'idol_hanni', name: 'Hanni (NewJeans)', rarity: 'Rare', group: 'NewJeans', gender: 'F', img: 'assets/idols/idol_hanni.jpg' },
+    { id: 'idol_danielle', name: 'Danielle (NewJeans)', rarity: 'Epic', group: 'NewJeans', gender: 'F', img: 'assets/idols/idol_danielle.png' },
+    { id: 'idol_haerin', name: 'Haerin (NewJeans)', rarity: 'Epic', group: 'NewJeans', gender: 'F', img: 'assets/idols/idol_haerin.jpg' },
+    { id: 'idol_hyein', name: 'Hyein (NewJeans)', rarity: 'Rare', group: 'NewJeans', gender: 'F', img: 'assets/idols/idol_hyein.png' },
 
 
     // --- KATSEYE (F) ---
-    { id: 'idol_manon', name: 'Manon (Katseye)', rarity: 'Secret', group: 'Katseye', gender: 'F' },
-    { id: 'idol_sophia', name: 'Sophia (Katseye)', rarity: 'Legendary', group: 'Katseye', gender: 'F' },
-    { id: 'idol_lara', name: 'Lara (Katseye)', rarity: 'Legendary', group: 'Katseye', gender: 'F' },
-    { id: 'idol_daniela', name: 'Daniela (Katseye)', rarity: 'Epic', group: 'Katseye', gender: 'F' },
-    { id: 'idol_megan', name: 'Megan (Katseye)', rarity: 'Rare', group: 'Katseye', gender: 'F' },
-    { id: 'idol_yoonchae', name: 'Yoonchae (Katseye)', rarity: 'Common', group: 'Katseye', gender: 'F' },
+    { id: 'idol_manon', name: 'Manon (Katseye)', rarity: 'Secret', group: 'Katseye', gender: 'F', img: 'assets/idols/idol_manon.jpg' },
+    { id: 'idol_sophia', name: 'Sophia (Katseye)', rarity: 'Legendary', group: 'Katseye', gender: 'F', img: 'assets/idols/idol_sophia.jpg' },
+    { id: 'idol_lara', name: 'Lara (Katseye)', rarity: 'Legendary', group: 'Katseye', gender: 'F', img: 'assets/idols/idol_lara.jpg' },
+    { id: 'idol_daniela', name: 'Daniela (Katseye)', rarity: 'Epic', group: 'Katseye', gender: 'F', img: 'assets/idols/idol_daniela.jpg' },
+    { id: 'idol_megan', name: 'Megan (Katseye)', rarity: 'Rare', group: 'Katseye', gender: 'F', img: 'assets/idols/idol_megan.jpg' },
+    { id: 'idol_yoonchae', name: 'Yoonchae (Katseye)', rarity: 'Common', group: 'Katseye', gender: 'F', img: 'assets/idols/idol_yoonchae.jpg' },
 
 
     // --- ITZY (F) ---
-    { id: 'idol_yeji', name: 'Yeji (Itzy)', rarity: 'Legendary', group: 'Itzy', gender: 'F', img: 'assets/idol_yeji.jpg' },
-    { id: 'idol_lia', name: 'Lia (Itzy)', rarity: 'Rare', group: 'Itzy', gender: 'F', img: 'assets/idol_lia.png' },
-    { id: 'idol_ryujin', name: 'Ryujin (Itzy)', rarity: 'Secret', group: 'Itzy', gender: 'F', img: 'assets/idol_ryujin.jpg' },
-    { id: 'idol_chaeryeong', name: 'Chaeryeong (Itzy)', rarity: 'Epic', group: 'Itzy', gender: 'F', img: 'assets/idol_chaeryeong.png' },
-    { id: 'idol_yuna', name: 'Yuna (Itzy)', rarity: 'Common', group: 'Itzy', gender: 'F', img: 'assets/idol_yuna.jpg' },
+    { id: 'idol_yeji', name: 'Yeji (Itzy)', rarity: 'Legendary', group: 'Itzy', gender: 'F', img: 'assets/idols/idol_yeji.jpg' },
+    { id: 'idol_lia', name: 'Lia (Itzy)', rarity: 'Rare', group: 'Itzy', gender: 'F', img: 'assets/idols/idol_lia.png' },
+    { id: 'idol_ryujin', name: 'Ryujin (Itzy)', rarity: 'Secret', group: 'Itzy', gender: 'F', img: 'assets/idols/idol_ryujin.jpg' },
+    { id: 'idol_chaeryeong', name: 'Chaeryeong (Itzy)', rarity: 'Epic', group: 'Itzy', gender: 'F', img: 'assets/idols/idol_chaeryeong.png' },
+    { id: 'idol_yuna', name: 'Yuna (Itzy)', rarity: 'Common', group: 'Itzy', gender: 'F', img: 'assets/idols/idol_yuna.jpg' },
 
     // --- ILLIT (F) ---
-    { id: 'idol_yunah', name: 'Yunah (ILLIT)', rarity: 'Epic', group: 'ILLIT', gender: 'F', img: 'assets/idol_yunah.jpg' },
-    { id: 'idol_minju', name: 'Minju (ILLIT)', rarity: 'Rare', group: 'ILLIT', gender: 'F', img: 'assets/idol_minju.png' },
-    { id: 'idol_moka', name: 'Moka (ILLIT)', rarity: 'Secret', group: 'ILLIT', gender: 'F', img: 'assets/idol_moka.jpg' },
-    { id: 'idol_wonhee', name: 'Wonhee (ILLIT)', rarity: 'Legendary', group: 'ILLIT', gender: 'F', img: 'assets/idol_wonhee.jpg' },
-    { id: 'idol_iroha', name: 'Iroha (ILLIT)', rarity: 'Common', group: 'ILLIT', gender: 'F', img: 'assets/idol_iroha.jpg' },
+    { id: 'idol_yunah', name: 'Yunah (ILLIT)', rarity: 'Epic', group: 'ILLIT', gender: 'F', img: 'assets/idols/idol_yunah.jpg' },
+    { id: 'idol_minju', name: 'Minju (ILLIT)', rarity: 'Rare', group: 'ILLIT', gender: 'F', img: 'assets/idols/idol_minju.png' },
+    { id: 'idol_moka', name: 'Moka (ILLIT)', rarity: 'Secret', group: 'ILLIT', gender: 'F', img: 'assets/idols/idol_moka.jpg' },
+    { id: 'idol_wonhee', name: 'Wonhee (ILLIT)', rarity: 'Legendary', group: 'ILLIT', gender: 'F', img: 'assets/idols/idol_wonhee.jpg' },
+    { id: 'idol_iroha', name: 'Iroha (ILLIT)', rarity: 'Common', group: 'ILLIT', gender: 'F', img: 'assets/idols/idol_iroha.jpg' },
 
     // --- CORTIS (M) ---
-    { id: 'idol_martin', name: 'Martin (Cortis)', rarity: 'Legendary', group: 'Cortis', gender: 'M', img: 'assets/idol_martin.jpg' },
-    { id: 'idol_james', name: 'James (Cortis)', rarity: 'Epic', group: 'Cortis', gender: 'M', img: 'assets/idol_james.jpg' },
-    { id: 'idol_juhoon', name: 'Juhoon (Cortis)', rarity: 'Common', group: 'Cortis', gender: 'M', img: 'assets/idol_juhoon.jpg' },
-    { id: 'idol_seonghyeon', name: 'Seonghyeon (Cortis)', rarity: 'Rare', group: 'Cortis', gender: 'M', img: 'assets/idol_seonghyeon.jpg' },
-    { id: 'idol_keonho', name: 'Keonho (Cortis)', rarity: 'Secret', group: 'Cortis', gender: 'M', img: 'assets/idol_keonho.jpg' },
+    { id: 'idol_martin', name: 'Martin (Cortis)', rarity: 'Legendary', group: 'Cortis', gender: 'M', img: 'assets/idols/idol_martin.jpg' },
+    { id: 'idol_james', name: 'James (Cortis)', rarity: 'Epic', group: 'Cortis', gender: 'M', img: 'assets/idols/idol_james.jpg' },
+    { id: 'idol_juhoon', name: 'Juhoon (Cortis)', rarity: 'Common', group: 'Cortis', gender: 'M', img: 'assets/idols/idol_juhoon.jpg' },
+    { id: 'idol_seonghyeon', name: 'Seonghyeon (Cortis)', rarity: 'Rare', group: 'Cortis', gender: 'M', img: 'assets/idols/idol_seonghyeon.jpg' },
+    { id: 'idol_keonho', name: 'Keonho (Cortis)', rarity: 'Secret', group: 'Cortis', gender: 'M', img: 'assets/idols/idol_keonho.jpg' },
 
     // --- ENHYPEN (M) ---
-    { id: 'idol_heeseung', name: 'Heeseung (ENHYPEN)', rarity: 'Legendary', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_heeseung.jpg' },
-    { id: 'idol_jay', name: 'Jay (ENHYPEN)', rarity: 'Epic', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_jay.jpg' },
-    { id: 'idol_jaeyun', name: 'Jaeyun (ENHYPEN)', rarity: 'Secret', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_jaeyun.jpg' },
-    { id: 'idol_sunghoon', name: 'Sunghoon (ENHYPEN)', rarity: 'Epic', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_sunghoon.jpg' },
-    { id: 'idol_sunoo', name: 'Sunoo (ENHYPEN)', rarity: 'Rare', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_sunoo.jpg' },
-    { id: 'idol_jungwon', name: 'Jungwon (ENHYPEN)', rarity: 'Epic', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_jungwon.jpg' },
-    { id: 'idol_riki', name: 'Ri-ki (ENHYPEN)', rarity: 'Rare', group: 'ENHYPEN', gender: 'M', img: 'assets/idol_riki.jpg' },
+    { id: 'idol_heeseung', name: 'Heeseung (ENHYPEN)', rarity: 'Legendary', group: 'ENHYPEN', gender: 'M', img: 'assets/idols/idol_heeseung.jpg' },
+    { id: 'idol_jay', name: 'Jay (ENHYPEN)', rarity: 'Epic', group: 'ENHYPEN', gender: 'M', img: 'assets/idols/idol_jay.jpg' },
+    { id: 'idol_jaeyun', name: 'Jaeyun (ENHYPEN)', rarity: 'Secret', group: 'ENHYPEN', gender: 'M', img: 'assets/idols/idol_jaeyun.jpg' },
+    { id: 'idol_sunghoon', name: 'Sunghoon (ENHYPEN)', rarity: 'Epic', group: 'ENHYPEN', gender: 'M', img: 'assets/idols/idol_sunghoon.jpg' },
+    { id: 'idol_sunoo', name: 'Sunoo (ENHYPEN)', rarity: 'Rare', group: 'ENHYPEN', gender: 'M', img: 'assets/idols/idol_sunoo.jpg' },
+    { id: 'idol_jungwon', name: 'Jungwon (ENHYPEN)', rarity: 'Epic', group: 'ENHYPEN', gender: 'M', img: 'assets/idols/idol_jungwon.jpg' },
+    { id: 'idol_riki', name: 'Ri-ki (ENHYPEN)', rarity: 'Rare', group: 'ENHYPEN', gender: 'M', img: 'assets/idols/idol_riki.jpg' },
 
     // --- BIGBANG (M) ---
-    { id: 'idol_gdragon', name: 'G-Dragon (Bigbang)', rarity: 'Golden', group: 'Bigbang', gender: 'M', img: 'assets/idol_gdragon.jpg' },
-    { id: 'idol_top', name: 'T.O.P (Bigbang)', rarity: 'Secret', group: 'Bigbang', gender: 'M', img: 'assets/idol_top.jpg' },
-    { id: 'idol_taeyang', name: 'Taeyang (Bigbang)', rarity: 'Rare', group: 'Bigbang', gender: 'M', img: 'assets/idol_taeyang.jpg' },
-    { id: 'idol_daesung', name: 'Daesung (Bigbang)', rarity: 'Epic', group: 'Bigbang', gender: 'M', img: 'assets/idol_daesung.jpg' },
+    { id: 'idol_gdragon', name: 'G-Dragon (Bigbang)', rarity: 'Golden', group: 'Bigbang', gender: 'M', img: 'assets/idols/idol_gdragon.jpg' },
+    { id: 'idol_top', name: 'T.O.P (Bigbang)', rarity: 'Secret', group: 'Bigbang', gender: 'M', img: 'assets/idols/idol_top.jpg' },
+    { id: 'idol_taeyang', name: 'Taeyang (Bigbang)', rarity: 'Rare', group: 'Bigbang', gender: 'M', img: 'assets/idols/idol_taeyang.jpg' },
+    { id: 'idol_daesung', name: 'Daesung (Bigbang)', rarity: 'Epic', group: 'Bigbang', gender: 'M', img: 'assets/idols/idol_daesung.jpg' },
 
     // --- (G)I-DLE (F) ---
-    { id: 'idol_soyeon', name: 'Soyeon (I-DLE)', rarity: 'Legendary', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_soyeon.jpg' },
-    { id: 'idol_miyeon', name: 'Miyeon (I-DLE)', rarity: 'Epic', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_miyeon.jpg' },
-    { id: 'idol_minnie', name: 'Minnie (I-DLE)', rarity: 'Golden', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_minnie.jpg' },
-    { id: 'idol_yuqi', name: 'Yuqi (I-DLE)', rarity: 'Secret', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_yuqi.jpg' },
-    { id: 'idol_shuhua', name: 'Shuhua (I-DLE)', rarity: 'Epic', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_shuhua.jpg' },
-    { id: 'idol_soojin', name: 'Soojin (I-DLE)', rarity: 'Rare', group: '(G)I-DLE', gender: 'F', img: 'assets/idol_soojin.jpg' },
+    { id: 'idol_soyeon', name: 'Soyeon (I-DLE)', rarity: 'Legendary', group: '(G)I-DLE', gender: 'F', img: 'assets/idols/idol_soyeon.jpg' },
+    { id: 'idol_miyeon', name: 'Miyeon (I-DLE)', rarity: 'Epic', group: '(G)I-DLE', gender: 'F', img: 'assets/idols/idol_miyeon.jpg' },
+    { id: 'idol_minnie', name: 'Minnie (I-DLE)', rarity: 'Golden', group: '(G)I-DLE', gender: 'F', img: 'assets/idols/idol_minnie.jpg' },
+    { id: 'idol_yuqi', name: 'Yuqi (I-DLE)', rarity: 'Secret', group: '(G)I-DLE', gender: 'F', img: 'assets/idols/idol_yuqi.jpg' },
+    { id: 'idol_shuhua', name: 'Shuhua (I-DLE)', rarity: 'Epic', group: '(G)I-DLE', gender: 'F', img: 'assets/idols/idol_shuhua.jpg' },
+    { id: 'idol_soojin', name: 'Soojin (I-DLE)', rarity: 'Rare', group: '(G)I-DLE', gender: 'F', img: 'assets/idols/idol_soojin.jpg' },
 
     // --- HUNTRX (F) ---
-    { id: 'idol_rumi_huntrx', name: 'Rumi (Huntrx)', rarity: 'Secret', group: 'Huntrx', gender: 'F', img: 'assets/idol_rumi_huntrx.jpg' },
-    { id: 'idol_zoey_huntrx', name: 'Zoey (Huntrx)', rarity: 'Legendary', group: 'Huntrx', gender: 'F', img: 'assets/idol_zoey_huntrx.jpg' },
-    { id: 'idol_mira_huntrx', name: 'Mira (Huntrx)', rarity: 'Epic', group: 'Huntrx', gender: 'F', img: 'assets/idol_mira_huntrx.jpg' },
+    { id: 'idol_rumi_huntrx', name: 'Rumi (Huntrx)', rarity: 'Secret', group: 'Huntrx', gender: 'F', img: 'assets/idols/idol_rumi_huntrx.jpg' },
+    { id: 'idol_zoey_huntrx', name: 'Zoey (Huntrx)', rarity: 'Legendary', group: 'Huntrx', gender: 'F', img: 'assets/idols/idol_zoey_huntrx.jpg' },
+    { id: 'idol_mira_huntrx', name: 'Mira (Huntrx)', rarity: 'Epic', group: 'Huntrx', gender: 'F', img: 'assets/idols/idol_mira_huntrx.jpg' },
 
     // --- FROMIS_9 (F) ---
-    { id: 'idol_saerom', name: 'Saerom (fromis_9)', rarity: 'Legendary', group: 'fromis_9', gender: 'F', img: 'assets/idol_saerom.jpg' },
-    { id: 'idol_hayoung', name: 'Hayoung (fromis_9)', rarity: 'Epic', group: 'fromis_9', gender: 'F', img: 'assets/idol_hayoung.jpg' },
-    { id: 'idol_jiwon', name: 'Jiwon (fromis_9)', rarity: 'Secret', group: 'fromis_9', gender: 'F', img: 'assets/idol_jiwon.jpg' },
-    { id: 'idol_jisun', name: 'Jisun (fromis_9)', rarity: 'Rare', group: 'fromis_9', gender: 'F', img: 'assets/idol_jisun.jpg' },
-    { id: 'idol_seoyeon', name: 'Seoyeon (fromis_9)', rarity: 'Epic', group: 'fromis_9', gender: 'F', img: 'assets/idol_seoyeon.jpg' },
-    { id: 'idol_chaeyoung_fromis', name: 'Chaeyoung (fromis_9)', rarity: 'Golden', group: 'fromis_9', gender: 'F', img: 'assets/idol_chaeyoung_fromis.jpg' },
-    { id: 'idol_nagyung', name: 'Nagyung (fromis_9)', rarity: 'Common', group: 'fromis_9', gender: 'F', img: 'assets/idol_nagyung.jpg' },
-    { id: 'idol_jiheon', name: 'Jiheon (fromis_9)', rarity: 'Rare', group: 'fromis_9', gender: 'F', img: 'assets/idol_jiheon.jpg' },
-    { id: 'idol_gyuri', name: 'Gyuri (fromis_9)', rarity: 'Common', group: 'fromis_9', gender: 'F', img: 'assets/idol_gyuri.jpg' },
+    { id: 'idol_saerom', name: 'Saerom (fromis_9)', rarity: 'Legendary', group: 'fromis_9', gender: 'F', img: 'assets/idols/idol_saerom.jpg' },
+    { id: 'idol_hayoung', name: 'Hayoung (fromis_9)', rarity: 'Epic', group: 'fromis_9', gender: 'F', img: 'assets/idols/idol_hayoung.jpg' },
+    { id: 'idol_jiwon', name: 'Jiwon (fromis_9)', rarity: 'Secret', group: 'fromis_9', gender: 'F', img: 'assets/idols/idol_jiwon.jpg' },
+    { id: 'idol_jisun', name: 'Jisun (fromis_9)', rarity: 'Rare', group: 'fromis_9', gender: 'F', img: 'assets/idols/idol_jisun.jpg' },
+    { id: 'idol_seoyeon', name: 'Seoyeon (fromis_9)', rarity: 'Epic', group: 'fromis_9', gender: 'F', img: 'assets/idols/idol_seoyeon.jpg' },
+    { id: 'idol_chaeyoung_fromis', name: 'Chaeyoung (fromis_9)', rarity: 'Golden', group: 'fromis_9', gender: 'F', img: 'assets/idols/idol_chaeyoung_fromis.jpg' },
+    { id: 'idol_nagyung', name: 'Nagyung (fromis_9)', rarity: 'Common', group: 'fromis_9', gender: 'F', img: 'assets/idols/idol_nagyung.jpg' },
+    { id: 'idol_jiheon', name: 'Jiheon (fromis_9)', rarity: 'Rare', group: 'fromis_9', gender: 'F', img: 'assets/idols/idol_jiheon.jpg' },
+    { id: 'idol_gyuri', name: 'Gyuri (fromis_9)', rarity: 'Common', group: 'fromis_9', gender: 'F', img: 'assets/idols/idol_gyuri.jpg' },
 
     // --- DREAMCATCHER (F) ---
-    { id: 'idol_jiu', name: 'JiU (Dreamcatcher)', rarity: 'Legendary', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_jiu.jpg' },
-    { id: 'idol_sua', name: 'SuA (Dreamcatcher)', rarity: 'Epic', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_sua.jpg' },
-    { id: 'idol_siyeon', name: 'Siyeon (Dreamcatcher)', rarity: 'Secret', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_siyeon.jpg' },
-    { id: 'idol_handong', name: 'Handong (Dreamcatcher)', rarity: 'Rare', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_handong.jpg' },
-    { id: 'idol_yoohyeon', name: 'Yoohyeon (Dreamcatcher)', rarity: 'Epic', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_yoohyeon.jpg' },
-    { id: 'idol_dami', name: 'Dami (Dreamcatcher)', rarity: 'Rare', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_dami.jpg' },
-    { id: 'idol_gahyun', name: 'Gahyun (Dreamcatcher)', rarity: 'Common', group: 'Dreamcatcher', gender: 'F', img: 'assets/idol_gahyun.jpg' },
+    { id: 'idol_jiu', name: 'JiU (Dreamcatcher)', rarity: 'Legendary', group: 'Dreamcatcher', gender: 'F', img: 'assets/idols/idol_jiu.jpg' },
+    { id: 'idol_sua', name: 'SuA (Dreamcatcher)', rarity: 'Epic', group: 'Dreamcatcher', gender: 'F', img: 'assets/idols/idol_sua.jpg' },
+    { id: 'idol_siyeon', name: 'Siyeon (Dreamcatcher)', rarity: 'Secret', group: 'Dreamcatcher', gender: 'F', img: 'assets/idols/idol_siyeon.jpg' },
+    { id: 'idol_handong', name: 'Handong (Dreamcatcher)', rarity: 'Rare', group: 'Dreamcatcher', gender: 'F', img: 'assets/idols/idol_handong.jpg' },
+    { id: 'idol_yoohyeon', name: 'Yoohyeon (Dreamcatcher)', rarity: 'Epic', group: 'Dreamcatcher', gender: 'F', img: 'assets/idols/idol_yoohyeon.jpg' },
+    { id: 'idol_dami', name: 'Dami (Dreamcatcher)', rarity: 'Rare', group: 'Dreamcatcher', gender: 'F', img: 'assets/idols/idol_dami.jpg' },
+    { id: 'idol_gahyun', name: 'Gahyun (Dreamcatcher)', rarity: 'Common', group: 'Dreamcatcher', gender: 'F', img: 'assets/idols/idol_gahyun.jpg' },
 
     // --- RED VELVET (F) ---
-    { id: 'idol_irene', name: 'Irene (Red Velvet)', rarity: 'Legendary', group: 'Red Velvet', gender: 'F', img: 'assets/idol_irene.jpg' },
-    { id: 'idol_seulgi', name: 'Seulgi (Red Velvet)', rarity: 'Rare', group: 'Red Velvet', gender: 'F', img: 'assets/idol_seulgi.jpg' },
-    { id: 'idol_wendy', name: 'Wendy (Red Velvet)', rarity: 'Epic', group: 'Red Velvet', gender: 'F', img: 'assets/idol_wendy.jpg' },
-    { id: 'idol_joy', name: 'Joy (Red Velvet)', rarity: 'Secret', group: 'Red Velvet', gender: 'F', img: 'assets/idol_joy.jpg' },
-    { id: 'idol_yeri', name: 'Yeri (Red Velvet)', rarity: 'Common', group: 'Red Velvet', gender: 'F', img: 'assets/idol_yeri.jpg' },
+    { id: 'idol_irene', name: 'Irene (Red Velvet)', rarity: 'Legendary', group: 'Red Velvet', gender: 'F', img: 'assets/idols/idol_irene.jpg' },
+    { id: 'idol_seulgi', name: 'Seulgi (Red Velvet)', rarity: 'Rare', group: 'Red Velvet', gender: 'F', img: 'assets/idols/idol_seulgi.jpg' },
+    { id: 'idol_wendy', name: 'Wendy (Red Velvet)', rarity: 'Epic', group: 'Red Velvet', gender: 'F', img: 'assets/idols/idol_wendy.jpg' },
+    { id: 'idol_joy', name: 'Joy (Red Velvet)', rarity: 'Secret', group: 'Red Velvet', gender: 'F', img: 'assets/idols/idol_joy.jpg' },
+    { id: 'idol_yeri', name: 'Yeri (Red Velvet)', rarity: 'Common', group: 'Red Velvet', gender: 'F', img: 'assets/idols/idol_yeri.jpg' },
 
 ];
 
@@ -267,57 +267,74 @@ const cardPool = [
 // Config: Lightsticks
 // Rarities: Common, Rare, Epic, Legendary, Secret
 const lightsticks = [
-    { id: 'ls_bts', group: 'BTS', name: 'BTS Army Bomb', rarity: 'Golden', img: 'assets/default_lightstick.png' },
-    { id: 'ls_blackpink', group: 'Blackpink', name: 'Bi-Ping-Bong', rarity: 'Golden', img: 'assets/default_lightstick.png' },
-    { id: 'ls_twice', group: 'Twice', name: 'Candy Bong', rarity: 'Legendary', img: 'assets/default_lightstick.png' },
-    { id: 'ls_skz', group: 'Stray Kids', name: 'Nachimbong', rarity: 'Secret', img: 'assets/default_lightstick.png' },
-    { id: 'ls_aespa', group: 'Aespa', name: 'Aespa LS', rarity: 'Legendary', img: 'assets/default_lightstick.png' },
-    { id: 'ls_ive', group: 'IVE', name: 'I-Ha-Bong', rarity: 'Epic', img: 'assets/default_lightstick.png' },
-    { id: 'ls_newjeans', group: 'NewJeans', name: 'Binky Bong', rarity: 'Rare', img: 'assets/default_lightstick.png' },
-    { id: 'ls_lss', group: 'Le Sserafim', name: 'Fim Bong', rarity: 'Legendary', img: 'assets/default_lightstick.png' },
-    { id: 'ls_baemon', group: 'BabyMonster', name: 'Baemon LS', rarity: 'Secret', img: 'assets/default_lightstick.png' },
-    { id: 'ls_katseye', group: 'Katseye', name: 'Katseye LS', rarity: 'Epic', img: 'assets/default_lightstick.png' },
-    { id: 'ls_itzy', group: 'Itzy', name: 'Light Ring', rarity: 'Epic', img: 'assets/default_lightstick.png' },
-    { id: 'ls_illit', group: 'ILLIT', name: 'ILLIT LS', rarity: 'Rare', img: 'assets/default_lightstick.png' },
-    { id: 'ls_cortis', group: 'Cortis', name: 'Cortis LS', rarity: 'Common', img: 'assets/default_lightstick.png' },
-    { id: 'ls_enhypen', group: 'ENHYPEN', name: 'ENGENE Bong', rarity: 'Common', img: 'assets/default_lightstick.png' },
-    { id: 'ls_bigbang', group: 'Bigbang', name: 'Bang Bong', rarity: 'Rare', img: 'assets/default_lightstick.png' },
-    { id: 'ls_gidle', group: '(G)I-DLE', name: 'I-LIGHT', rarity: 'Epic', img: 'assets/default_lightstick.png' },
-    { id: 'ls_huntrx', group: 'Huntrx', name: 'Huntrx LS', rarity: 'Golden', img: 'assets/default_lightstick.png' },
-    { id: 'ls_fromis9', group: 'fromis_9', name: 'Fromis Candlebong', rarity: 'Epic', img: 'assets/default_lightstick.png' },
-    { id: 'ls_dreamcatcher', group: 'Dreamcatcher', name: 'Dreamcatcher Robe', rarity: 'Rare', img: 'assets/default_lightstick.png' },
-    { id: 'ls_redvelvet', group: 'Red Velvet', name: 'Red Velvet Luvbong', rarity: 'Common', img: 'assets/default_lightstick.png' }
+    { id: 'ls_bts', group: 'BTS', name: 'BTS', rarity: 'Golden', img: 'assets/lightstick/lightstick_bts.jpg' },
+    { id: 'ls_blackpink', group: 'Blackpink', name: 'Blackpink', rarity: 'Golden', img: 'assets/lightstick/lightstick_blackpink.jpg' },
+    { id: 'ls_twice', group: 'Twice', name: 'Twice', rarity: 'Legendary', img: 'assets/lightstick/lightstick_twice.jpg' },
+    { id: 'ls_skz', group: 'Stray Kids', name: 'Stray Kids', rarity: 'Secret', img: 'assets/lightstick/lightstick_straykids.jpg' },
+    { id: 'ls_aespa', group: 'Aespa', name: 'Aespa', rarity: 'Legendary', img: 'assets/lightstick/lightstick_aespa.jpg' },
+    { id: 'ls_ive', group: 'IVE', name: 'IVE', rarity: 'Epic', img: 'assets/lightstick/lightstick_ive.jpg' },
+    { id: 'ls_newjeans', group: 'NewJeans', name: 'NewJeans', rarity: 'Rare', img: 'assets/lightstick/lightstick_newjeans.jpeg' },
+    { id: 'ls_lss', group: 'Le Sserafim', name: 'Le Sserafim', rarity: 'Legendary', img: 'assets/lightstick/lightstick_lesserafim.jpeg' },
+    { id: 'ls_baemon', group: 'BabyMonster', name: 'BabyMonster', rarity: 'Secret', img: 'assets/lightstick/lightstick_babymonster.jpg' },
+    { id: 'ls_katseye', group: 'Katseye', name: 'Katseye', rarity: 'Epic', img: 'assets/lightstick/lightstick_katseye.jpg' },
+    { id: 'ls_itzy', group: 'Itzy', name: 'Itzy', rarity: 'Epic', img: 'assets/lightstick/lightstick_itzy.jpg' },
+    { id: 'ls_illit', group: 'ILLIT', name: 'ILLIT', rarity: 'Rare', img: 'assets/lightstick/lightstick_illit.jpg' },
+    { id: 'ls_cortis', group: 'Cortis', name: 'Cortis', rarity: 'Common', img: 'assets/lightstick/default_lightstick.png' },
+    { id: 'ls_enhypen', group: 'ENHYPEN', name: 'ENHYPEN', rarity: 'Common', img: 'assets/lightstick/lightstick_enhypen.jpg' },
+    { id: 'ls_bigbang', group: 'Bigbang', name: 'Bigbang', rarity: 'Rare', img: 'assets/lightstick/lightstick_bigbang.jpg' },
+    { id: 'ls_gidle', group: '(G)I-DLE', name: '(G)I-DLE', rarity: 'Epic', img: 'assets/lightstick/lightstick_gilde.jpeg' },
+    { id: 'ls_huntrx', group: 'Huntrx', name: 'Huntrx', rarity: 'Golden', img: 'assets/lightstick/lightstick_huntrx.jpg' },
+    { id: 'ls_fromis9', group: 'fromis_9', name: 'fromis_9', rarity: 'Epic', img: 'assets/lightstick/lightstick_fromis9.jpg' },
+    { id: 'ls_dreamcatcher', group: 'Dreamcatcher', name: 'Dreamcatcher', rarity: 'Rare', img: 'assets/lightstick/lightstick_dreamcatcher.jpg' },
+    { id: 'ls_redvelvet', group: 'Red Velvet', name: 'Red Velvet', rarity: 'Common', img: 'assets/lightstick/lightstick_redvelvet.jpg' }
 
 
 ];
 
 // Config: Albums
 const albums = [
-    // Blackpink Albums
-    { id: 'alb_bp_thealbum', group: 'Blackpink', name: 'The Album', type: 'Album', rarity: 'Rare', img: 'assets/default_album.png' },
-    { id: 'alb_bp_bornpink', group: 'Blackpink', name: 'Born Pink', type: 'Album', rarity: 'Secret', img: 'assets/default_album.png' },
+    // Blackpink Songs
+    { id: 'alb_bp_thealbum', group: 'Blackpink', name: 'How You Like That', type: 'Song', source: 'The Album', rarity: 'Epic', img: 'assets/musique/the_album_blackpink.jpg' },
+    { id: 'song_bp_lovesickgirls', group: 'Blackpink', name: 'Lovesick Girls', type: 'Song', source: 'The Album', rarity: 'Legendary', img: 'assets/musique/the_album_blackpink.jpg' },
+    { id: 'alb_bp_bornpink', group: 'Blackpink', name: 'Pink Venom', type: 'Song', source: 'Born Pink', rarity: 'Golden', img: 'assets/musique/born_pink_blackpink.jpg' },
+    { id: 'song_bp_shutdown', group: 'Blackpink', name: 'Shut Down', type: 'Song', source: 'Born Pink', rarity: 'Secret', img: 'assets/musique/born_pink_blackpink.jpg' },
+    { id: 'ep_bp_squareup', group: 'Blackpink', name: 'DDU-DU DDU-DU', type: 'Song', source: 'Square Up', rarity: 'Epic', img: 'assets/musique/square_up_blackpink.jpg' },
+    { id: 'ep_bp_killthislove', group: 'Blackpink', name: 'Kill This Love', type: 'Song', source: 'Kill This Love', rarity: 'Legendary', img: 'assets/musique/kill_this_love_blackpink.jpg' },
 
-    // Blackpink EPs
-    { id: 'ep_bp_squareup', group: 'Blackpink', name: 'Square Up', type: 'EP', rarity: 'Epic', img: 'assets/default_album.png' },
-    { id: 'ep_bp_killthislove', group: 'Blackpink', name: 'Kill This Love', type: 'EP', rarity: 'Legendary', img: 'assets/default_album.png' },
+    // BTS Songs
+    { id: 'song_bts_dynamite', group: 'BTS', name: 'Dynamite', type: 'Song', source: 'BE', rarity: 'Golden', img: 'assets/musique/be_bts.jpg' },
+    { id: 'song_bts_fakelove', group: 'BTS', name: 'Fake Love', type: 'Song', source: 'Love Yourself', rarity: 'Legendary', img: 'assets/musique/love_yourself_bts.jpg' },
+    { id: 'song_bts_butter', group: 'BTS', name: 'Butter', type: 'Song', source: 'Proof', rarity: 'Secret', img: 'assets/musique/proof_bts.jpg' },
+    { id: 'song_bts_boywithluv', group: 'BTS', name: 'Boy With Luv', type: 'Song', source: 'Map of the Soul: Persona', rarity: 'Epic', img: 'assets/musique/map_of_the_soul_persona_bts.jpg' },
 
-    // BTS Albums
-    { id: 'alb_bts_darkwild', group: 'BTS', name: 'Dark & Wild', type: 'Album', rarity: 'Epic', img: 'assets/default_album.png' },
-    { id: 'alb_bts_wings', group: 'BTS', name: 'Wings', type: 'Album', rarity: 'Secret', img: 'assets/default_album.png' },
-    { id: 'alb_bts_tear', group: 'BTS', name: 'Love Yourself: Tear', type: 'Album', rarity: 'Legendary', img: 'assets/default_album.png' },
-    { id: 'alb_bts_mots', group: 'BTS', name: 'Map of the Soul', type: 'Album', rarity: 'Epic', img: 'assets/default_album.png' },
-    { id: 'alb_bts_wakeup', group: 'BTS', name: 'Wake Up', type: 'Album', rarity: 'Rare', img: 'assets/default_album.png' },
-    { id: 'alb_bts_youth', group: 'BTS', name: 'Youth', type: 'Album', rarity: 'Rare', img: 'assets/default_album.png' },
-    { id: 'alb_bts_faceyourself', group: 'BTS', name: 'Face Yourself', type: 'Album', rarity: 'Epic', img: 'assets/default_album.png' },
-    { id: 'alb_bts_mots7journey', group: 'BTS', name: 'Map of the Soul: 7 - The Journey', type: 'Album', rarity: 'Legendary', img: 'assets/default_album.png' },
+    // Stray Kids Songs
+    { id: 'song_skz_maniac', group: 'Stray Kids', name: 'Maniac', type: 'Song', source: 'Oddinary', rarity: 'Legendary', img: 'assets/musique/oddinary_straykids.jpg' },
+    { id: 'song_skz_chkchkboom', group: 'Stray Kids', name: 'Chk Chk Boom', type: 'Song', source: 'Ate', rarity: 'Secret', img: 'assets/musique/ate_straykids.jpg' },
+    { id: 'song_skz_ceremony', group: 'Stray Kids', name: 'Ceremony', type: 'Song', source: 'Karma', rarity: 'Rare', img: 'assets/musique/karma_straykids.jpg' },
+    { id: 'song_skz_lalalala', group: 'Stray Kids', name: 'Lalalala', type: 'Song', source: 'Rock-Star', rarity: 'Legendary', img: 'assets/musique/rockstar_straykids.jpg' },
+    { id: 'song_skz_doit', group: 'Stray Kids', name: 'Do It', type: 'Song', source: 'Do It', rarity: 'Epic', img: 'assets/musique/doit_straykids.jpg' },
 
-    // BTS EPs
-    { id: 'ep_bts_orul82', group: 'BTS', name: 'O!RUL8,2?', type: 'EP', rarity: 'Epic', img: 'assets/default_album.png' },
-    { id: 'ep_bts_skoolluv', group: 'BTS', name: 'Skool Luv Affair', type: 'EP', rarity: 'Legendary', img: 'assets/default_album.png' },
-    { id: 'ep_bts_hyyh1', group: 'BTS', name: 'The Most Beautiful Moment in Life, Part 1', type: 'EP', rarity: 'Secret', img: 'assets/default_album.png' },
-    { id: 'ep_bts_hyyh2', group: 'BTS', name: 'The Most Beautiful Moment in Life, Part 2', type: 'EP', rarity: 'Epic', img: 'assets/default_album.png' },
-    { id: 'ep_bts_lyher', group: 'BTS', name: 'Love Yourself: Her', type: 'EP', rarity: 'Legendary', img: 'assets/default_album.png' },
-    { id: 'ep_bts_motspersona', group: 'BTS', name: 'Map of the Soul: Persona', type: 'EP', rarity: 'Golden', img: 'assets/default_album.png' }
+    // Twice Songs
+    { id: 'song_twice_thisisfor', group: 'Twice', name: 'This is For', type: 'Song', source: 'This is For', rarity: 'Legendary', img: 'assets/musique/this_is_for_twice.jpg' },
+    { id: 'song_twice_whatislove', group: 'Twice', name: 'What is Love ?', type: 'Song', source: 'Summer Nights', rarity: 'Epic', img: 'assets/musique/summer_nights_twice.jpg' },
+    { id: 'song_twice_strategy', group: 'Twice', name: 'Strategy', type: 'Song', source: 'Strategy', rarity: 'Common', img: 'assets/musique/strategy_twice.jpg' },
+    { id: 'song_twice_thefeels', group: 'Twice', name: 'The Feels', type: 'Song', source: 'Formula of love : O+T=<3', rarity: 'Rare', img: 'assets/musique/formula_of_love_twice.jpg' },
+
+    // Aespa Songs
+    { id: 'song_aespa_whiplash', group: 'Aespa', name: 'Whiplash', type: 'Song', source: 'Whiplash', rarity: 'Legendary', img: 'assets/musique/whiplash_aespa.jpg' },
+    { id: 'song_aespa_drama', group: 'Aespa', name: 'Drama', type: 'Song', source: 'Drama', rarity: 'Legendary', img: 'assets/musique/drama_aespa.jpg' },
+    { id: 'song_aespa_supernova', group: 'Aespa', name: 'Supernova', type: 'Song', source: 'Armageddon', rarity: 'Secret', img: 'assets/musique/armageddon_aespa.jpg' },
+    { id: 'song_aespa_richman', group: 'Aespa', name: 'Rich Man', type: 'Song', source: 'Rich Man', rarity: 'Epic', img: 'assets/musique/rich_man_aespa.jpg' },
+    { id: 'song_aespa_blackmamba', group: 'Aespa', name: 'Black Mamba', type: 'Song', source: 'Girls', rarity: 'Rare', img: 'assets/musique/girls_aespa.jpg' },
+
+    // BabyMonster Songs
+    { id: 'song_baemon_psycho', group: 'BabyMonster', name: 'Psycho', type: 'Song', source: 'We Go Up', rarity: 'Legendary', img: 'assets/musique/we_go_up_babymonster.jpg' },
+    { id: 'song_baemon_wegoup', group: 'BabyMonster', name: 'We Go Up', type: 'Song', source: 'We Go Up', rarity: 'Epic', img: 'assets/musique/we_go_up_babymonster.jpg' },
+    { id: 'song_baemon_supadupaluv', group: 'BabyMonster', name: 'Supa Dupa Luv', type: 'Song', source: 'We Go Up', rarity: 'Rare', img: 'assets/musique/we_go_up_babymonster.jpg' },
+    { id: 'song_baemon_drip', group: 'BabyMonster', name: 'Drip', type: 'Song', source: 'Drip', rarity: 'Legendary', img: 'assets/musique/drip_babymonster.jpg' },
+    { id: 'song_baemon_forever', group: 'BabyMonster', name: 'Forever', type: 'Song', source: 'Drip', rarity: 'Epic', img: 'assets/musique/drip_babymonster.jpg' },
+    { id: 'song_baemon_sheesh', group: 'BabyMonster', name: 'Sheesh', type: 'Song', source: 'Babymons7er', rarity: 'Legendary', img: 'assets/musique/babymons7er_babymonster.jpg' },
+    { id: 'song_baemon_likethat', group: 'BabyMonster', name: 'Like That', type: 'Song', source: 'Babymons7er', rarity: 'Rare', img: 'assets/musique/babymons7er_babymonster.jpg' }
 ];
 
 
@@ -365,44 +382,44 @@ const packData = {
         rates: { 'Common': 0, 'Rare': 0, 'Epic': 55, 'Legendary': 30, 'Secret': 12, 'Golden': 3 }
     },
 
-    // --- ALBUM PACKS (Coins) ---
+    // --- MUSIC PACKS (Coins) ---
     'debut_single': {
         name: 'Debut Single',
         cost: 200,
         currency: 'coins',
-        desc: 'A fresh start. Contains basic cards.',
+        desc: 'Your first song. Contains basic music cards.',
         img: '💿',
         rates: { 'Common': 70, 'Rare': 25, 'Epic': 5, 'Legendary': 0, 'Secret': 0, 'Golden': 0 }
     },
     'mini_album': {
-        name: 'Mini Album',
+        name: 'Mini Playlist',
         cost: 2000,
         currency: 'coins',
-        desc: 'A solid comeback. Better rates.',
+        desc: 'A collection of hit songs. Better rates.',
         img: '📀',
         rates: { 'Common': 55, 'Rare': 30, 'Epic': 13, 'Legendary': 2, 'Secret': 0, 'Golden': 0 }
     },
     'full_album': {
-        name: 'Full Album',
+        name: 'Full Tracklist',
         cost: 5000,
         currency: 'coins',
-        desc: 'The complete experience. Great value.',
+        desc: 'Complete musical experience. Great value.',
         img: '🎵',
         rates: { 'Common': 35, 'Rare': 35, 'Epic': 22, 'Legendary': 6, 'Secret': 2, 'Golden': 0 }
     },
     'repackage': {
-        name: 'Repackage Album',
+        name: 'Remix Collection',
         cost: 10000,
         currency: 'coins',
-        desc: 'Bonus tracks included! High Epic chance.',
+        desc: 'Bonus tracks and remixes! High Epic chance.',
         img: '🎼',
         rates: { 'Common': 0, 'Rare': 35, 'Epic': 40, 'Legendary': 18, 'Secret': 6, 'Golden': 1 }
     },
     'collectors_box': {
-        name: 'Collector\'s Box',
+        name: 'Greatest Hits',
         cost: 50000,
         currency: 'coins',
-        desc: 'For the ultimate collector. Best rates.',
+        desc: 'The ultimate music collection. Best rates.',
         img: '📦',
         rates: { 'Common': 0, 'Rare': 0, 'Epic': 55, 'Legendary': 30, 'Secret': 12, 'Golden': 3 }
     },
@@ -717,6 +734,9 @@ function updateScoreUI() {
         document.getElementById('xp-bar-fill').style.width = `${pct}%`;
     }
 
+    // Collection Progress UI
+    updateCollectionProgress();
+
     // Check buy buttons
     upgrades.forEach(u => {
         const cost = calculateCost(u);
@@ -747,6 +767,35 @@ function updateScoreUI() {
 
     const diamondBtn = document.getElementById('buy-diamond-btn');
     if (diamondBtn) diamondBtn.disabled = state.coins < DIAMOND_PACK_COST;
+}
+
+function updateCollectionProgress() {
+    // Get unique items from all categories (Idols, Lightsticks, Music)
+    const uniqueCollectedIds = new Set(
+        state.inventory
+            .filter(item => item.id)
+            .map(item => item.id)
+    );
+
+    // Total number of unique items available across all categories
+    const totalPossibleCards = cardPool.length + lightsticks.length + albums.length;
+
+    // We only want to count items that are actually in one of our definition arrays
+    // to avoid counting potential "ghost" items or legacy IDs
+    const validCollectedCount = [...uniqueCollectedIds].filter(id =>
+        cardPool.some(c => c.id === id) ||
+        lightsticks.some(l => l.id === id) ||
+        albums.some(a => a.id === id)
+    ).length;
+
+    // Calculate percentage
+    const percentage = totalPossibleCards > 0 ? Math.floor((validCollectedCount / totalPossibleCards) * 100) : 0;
+
+    // Update UI
+    document.getElementById('collection-percentage').innerText = percentage;
+    document.getElementById('collection-count').innerText = validCollectedCount;
+    document.getElementById('collection-total').innerText = totalPossibleCards;
+    document.getElementById('collection-bar-fill').style.width = `${percentage}%`;
 }
 
 function updateUI() {
@@ -1131,7 +1180,8 @@ function showCardDetails(cardId) {
             <div class="details-info">
                 <h2>${cardDef.name}</h2>
                 <p class="rarity-tag">${cardDef.rarity}</p>
-                <p class="group-tag">${cardDef.group}</p>
+                <p class="group-tag" style="margin-bottom: 0.2rem;">${cardDef.group}</p>
+                ${cardDef.source ? `<p class="source-tag" style="color:var(--primary-pink); font-size:0.9em; font-weight:bold; margin-bottom: 0.2rem;">${cardDef.source}</p>` : ''}
                 ${cardDef.type ? `<p class="type-tag" style="color:#aaa; font-size:0.9em; margin:0.3rem 0;">${cardDef.type}</p>` : ''}
                 <p class="count-tag">Owned: ${count}</p>
                 <hr style="border-color:rgba(255,255,255,0.1); width:100%; margin:1rem 0;">
@@ -1469,7 +1519,7 @@ function revealCard(card, container) {
         <div class="revealed-card card-rarity-${card.rarity} ${premiumClass}">
             <div class="card-rarity-badge">${card.rarity}</div>
             <img src="${card.img || `assets/${card.id}.jpg`}" class="card-img" onerror="this.onerror=null; this.src='assets/placeholder_${card.gender === 'M' ? 'male' : 'female'}.jpg'">
-            <div class="card-name">${card.name}<br><span style="font-size:0.6em; color:#ddd; font-weight:normal;">${card.group || ''}</span></div>
+            <div class="card-name">${card.name}<br><span style="font-size:0.6em; color:#ddd; font-weight:normal;">${card.group || ''}</span>${card.source ? `<br><span style="font-size:0.55em; color:#bbb; font-weight:normal;">${card.source}</span>` : ''}</div>
         </div>
         <div class="card-reveal-actions">
             <button class="reveal-action-btn reveal-close-btn" onclick="closePackOpeningModal()">Continue</button>
@@ -1483,7 +1533,7 @@ function revealCard(card, container) {
         <div class="card-reveal card-rarity-${card.rarity}">
             <div class="card-rarity-badge">${card.rarity}</div>
             <img src="${card.img || `assets/${card.id}.jpg`}" class="card-img" onerror="this.onerror=null; this.src='assets/placeholder_${card.gender === 'M' ? 'male' : 'female'}.jpg'">
-            <div class="card-name">${card.name}<br><span style="font-size:0.6em; color:#ddd; font-weight:normal;">${card.group || ''}</span></div>
+            <div class="card-name">${card.name}<br><span style="font-size:0.6em; color:#ddd; font-weight:normal;">${card.group || ''}</span>${card.source ? `<br><span style="font-size:0.55em; color:#bbb; font-weight:normal;">${card.source}</span>` : ''}</div>
         </div>
     `;
 
@@ -1564,7 +1614,7 @@ function renderAlbums() {
                     <div class="card-inner-view">
                         <div class="card-count-badge">x${count}</div>
                         <img src="${item.img}" class="full-card-img" onerror="this.onerror=null; this.src='assets/default_album.png'">
-                        <div class="card-name">${item.name}</div>
+                        <div class="card-name">${item.name}<br><span style="font-size:0.7em; color:#bbb; font-weight:normal;">${item.source || item.type}</span></div>
                     </div>
                 `;
             } else {

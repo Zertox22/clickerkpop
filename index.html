@@ -52,6 +52,19 @@
                         <div id="xp-bar-fill" class="xp-bar-fill" style="width: 0%;"></div>
                     </div>
                 </div>
+                <!-- Collection Progress -->
+                <div class="collection-progress-container">
+                    <div class="collection-progress-info">
+                        <span class="collection-label">📸 Collection</span>
+                        <span class="collection-percentage"><span id="collection-percentage">0</span>%</span>
+                    </div>
+                    <div class="collection-bar-bg">
+                        <div id="collection-bar-fill" class="collection-bar-fill" style="width: 0%;"></div>
+                    </div>
+                    <div class="collection-count">
+                        <span id="collection-count">0</span> / <span id="collection-total">0</span> cartes
+                    </div>
+                </div>
             </header>
 
             <div class="click-area">
@@ -68,7 +81,7 @@
                     Mes Lightstick 🪄
                 </button>
                 <button id="open-album-btn" class="collection-btn" onclick="openAlbumModal()">
-                    Mes Albums/EPs 💿
+                    Mes Musiques 🎵
                 </button>
             </div>
         </section>
@@ -130,7 +143,7 @@
                 </div>
 
                 <div class="gacha-category">
-                    <h3>Album/EP Pack (🌟)</h3>
+                    <h3>Music Pack (🌟)</h3>
                     <div class="gacha-btn-group">
                         <button class="gacha-list-btn album-btn-style" onclick="openPackModal('debut_single')">
                             <span class="gacha-icon">💿</span>
@@ -238,7 +251,7 @@
     <div id="album-modal" class="modal hidden">
         <div class="modal-content">
             <span class="close-modal" onclick="closeAlbumModal()">&times;</span>
-            <h2>Mes Albums/EPs 💿</h2>
+            <h2>Mes Musiques 🎵</h2>
             <div id="album-grid" class="card-grid"></div>
         </div>
     </div>
