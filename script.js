@@ -334,7 +334,27 @@ const albums = [
     { id: 'song_baemon_drip', group: 'BabyMonster', name: 'Drip', type: 'Song', source: 'Drip', rarity: 'Legendary', img: 'assets/musique/drip_babymonster.jpg' },
     { id: 'song_baemon_forever', group: 'BabyMonster', name: 'Forever', type: 'Song', source: 'Drip', rarity: 'Epic', img: 'assets/musique/drip_babymonster.jpg' },
     { id: 'song_baemon_sheesh', group: 'BabyMonster', name: 'Sheesh', type: 'Song', source: 'Babymons7er', rarity: 'Legendary', img: 'assets/musique/babymons7er_babymonster.jpg' },
-    { id: 'song_baemon_likethat', group: 'BabyMonster', name: 'Like That', type: 'Song', source: 'Babymons7er', rarity: 'Rare', img: 'assets/musique/babymons7er_babymonster.jpg' }
+    { id: 'song_baemon_likethat', group: 'BabyMonster', name: 'Like That', type: 'Song', source: 'Babymons7er', rarity: 'Rare', img: 'assets/musique/babymons7er_babymonster.jpg' },
+
+    // IVE Songs
+    { id: 'song_ive_iam', group: 'IVE', name: 'I Am', type: 'Song', source: "I've Ive", rarity: 'Golden', img: 'assets/musique/ive_ive_ive.jpg' },
+    { id: 'song_ive_xoxz', group: 'IVE', name: 'XOXZ', type: 'Song', source: 'Ive Secret', rarity: 'Secret', img: 'assets/musique/ive_secret_ive.jpg' },
+    { id: 'song_ive_bangbang', group: 'IVE', name: 'Bang bang', type: 'Song', source: 'Single', rarity: 'Rare', img: 'assets/musique/bang_bang_ive.jpg' },
+    { id: 'song_ive_lovedive', group: 'IVE', name: 'Love dive', type: 'Song', source: 'Single', rarity: 'Legendary', img: 'assets/musique/love_dive_ive.jpg' },
+    { id: 'song_ive_eleven', group: 'IVE', name: 'Eleven', type: 'Song', source: 'Single', rarity: 'Epic', img: 'assets/musique/eleven_ive.jpg' },
+
+    // Le Sserafim Songs
+    { id: 'song_lsf_spaghetti', group: 'Le Sserafim', name: 'Spaghetti', type: 'Song', source: 'Spaghetti', rarity: 'Secret', img: 'assets/musique/spaghetti_lesserafim.jpg' },
+    { id: 'song_lsf_crazy', group: 'Le Sserafim', name: 'Crazy', type: 'Song', source: 'Crazy', rarity: 'Legendary', img: 'assets/musique/crazy_lesserafim.jpg' },
+    { id: 'song_lsf_antifragile', group: 'Le Sserafim', name: 'Antifragile', type: 'Song', source: 'Unforgiven', rarity: 'Epic', img: 'assets/musique/unforgiven_lesserafim.jpg' },
+    { id: 'song_lsf_hot', group: 'Le Sserafim', name: 'Hot', type: 'Song', source: 'Hot', rarity: 'Common', img: 'assets/musique/hot_lesserafim.jpg' },
+    { id: 'song_lsf_smart', group: 'Le Sserafim', name: 'Smart', type: 'Song', source: 'Single', rarity: 'Rare', img: 'assets/musique/smart_lesserafim.jpg' },
+
+    // NewJeans Songs
+    { id: 'song_nwjns_hypeboy', group: 'NewJeans', name: 'Hype boy', type: 'Song', source: 'NewJeans', rarity: 'Legendary', img: 'assets/musique/newjeans_newjeans.jpg' },
+    { id: 'song_nwjns_supershy', group: 'NewJeans', name: 'Super shy', type: 'Song', source: 'Single', rarity: 'Epic', img: 'assets/musique/supershy_newjeans_newjeans.jpg' },
+    { id: 'song_nwjns_newjeans', group: 'NewJeans', name: 'NewJeans', type: 'Song', source: 'Single', rarity: 'Rare', img: 'assets/musique/supershy_newjeans_newjeans.jpg' },
+    { id: 'song_nwjns_omg', group: 'NewJeans', name: 'OMG', type: 'Song', source: 'Single', rarity: 'Secret', img: 'assets/musique/omg_newjeans.jpg' }
 ];
 
 
